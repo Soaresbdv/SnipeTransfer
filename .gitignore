@@ -1,0 +1,14 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Env & system
+.env
+.env.*
+*.swp
+
+# CSV, logs and data
+*.csv
+*.log
+log_*.txt
