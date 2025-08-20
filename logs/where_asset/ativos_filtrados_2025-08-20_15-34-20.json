@@ -1,0 +1,3941 @@
+[
+  {
+    "username": "yaskara.borges",
+    "name": "Yaskara Borges",
+    "assets": []
+  },
+  {
+    "username": "willian.toledo",
+    "name": "Willian Toledo",
+    "assets": [
+      {
+        "id": 26,
+        "asset_tag": "ST0158",
+        "serial": "H2002d230303209",
+        "category": "Headset"
+      },
+      {
+        "id": 357,
+        "asset_tag": "ST0359",
+        "serial": "038021021643",
+        "category": "Webcam"
+      }
+    ]
+  },
+  {
+    "username": "william.rouver",
+    "name": "William Sérgio de Andrade Oliveira",
+    "assets": [
+      {
+        "id": 12,
+        "asset_tag": "ST0163",
+        "serial": "H2002d230303203",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "william.pereira",
+    "name": "William Pereira",
+    "assets": [
+      {
+        "id": 194,
+        "asset_tag": "ST0114",
+        "serial": "Y522HX5T901706V",
+        "category": "Monitores"
+      },
+      {
+        "id": 272,
+        "asset_tag": "ST0285",
+        "serial": "DV6C57BVKXK1",
+        "category": "Smartphones"
+      },
+      {
+        "id": 278,
+        "asset_tag": "ST0291",
+        "serial": "PE0BY2CG",
+        "category": "Notebooks"
+      },
+      {
+        "id": 441,
+        "asset_tag": "ST0432",
+        "serial": "",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "william.diesner",
+    "name": "William Ramos Diesner",
+    "assets": []
+  },
+  {
+    "username": "wiki",
+    "name": "wiki",
+    "assets": []
+  },
+  {
+    "username": "whatsapp2",
+    "name": "whatsapp2",
+    "assets": []
+  },
+  {
+    "username": "whatsapp1",
+    "name": "whatsapp1",
+    "assets": []
+  },
+  {
+    "username": "wesley.lamero",
+    "name": "Wesley Lamero",
+    "assets": [
+      {
+        "id": 13,
+        "asset_tag": "ST0168",
+        "serial": "H2002d230301725",
+        "category": "Headset"
+      },
+      {
+        "id": 259,
+        "asset_tag": "ST0222",
+        "serial": "FGQMSH3",
+        "category": "Monitores"
+      },
+      {
+        "id": 291,
+        "asset_tag": "ST0303",
+        "serial": "BRM3296RPB",
+        "category": "Notebooks"
+      }
+    ]
+  },
+  {
+    "username": "victoria.fabiano",
+    "name": "Victoria Rocha Fabiano",
+    "assets": []
+  },
+  {
+    "username": "victoria.costa",
+    "name": "Victoria Costa",
+    "assets": []
+  },
+  {
+    "username": "victor.menezes",
+    "name": "Victor Augusto Menezes",
+    "assets": [
+      {
+        "id": 128,
+        "asset_tag": "ST0017",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 217,
+        "asset_tag": "ST0141",
+        "serial": "5N9WNJ3",
+        "category": "Monitores"
+      },
+      {
+        "id": 455,
+        "asset_tag": "ST0450",
+        "serial": "2126-22A00",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "victor.cals",
+    "name": "Victor Cals",
+    "assets": [
+      {
+        "id": 6,
+        "asset_tag": "ST0071",
+        "serial": "H2002d230208775",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "victor.monteiro",
+    "name": "Victor Ribeiro Monteiro",
+    "assets": [
+      {
+        "id": 182,
+        "asset_tag": "ST0253",
+        "serial": "MMTPLAA00622701D1A8544",
+        "category": "Monitores"
+      },
+      {
+        "id": 318,
+        "asset_tag": "ST0326",
+        "serial": "MMTPLAA00622701D878544",
+        "category": "Monitores"
+      },
+      {
+        "id": 321,
+        "asset_tag": "ST0330",
+        "serial": "PE0CXWV1",
+        "category": "Desktop"
+      },
+      {
+        "id": 346,
+        "asset_tag": "ST0365",
+        "serial": "038021021652",
+        "category": "Webcam"
+      }
+    ]
+  },
+  {
+    "username": "vania.silva",
+    "name": "Vania Rodrigues dos Santos Silva",
+    "assets": [
+      {
+        "id": 149,
+        "asset_tag": "ST0032",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 221,
+        "asset_tag": "ST0021",
+        "serial": "08AD9QCK400285",
+        "category": "Desktop"
+      }
+    ]
+  },
+  {
+    "username": "vanessa.trindade",
+    "name": "Vanessa Trindade",
+    "assets": []
+  },
+  {
+    "username": "user.ansible",
+    "name": "User Test Ansible",
+    "assets": []
+  },
+  {
+    "username": "thonne.cleiton",
+    "name": "Thonne Cleiton",
+    "assets": []
+  },
+  {
+    "username": "thomas.silva",
+    "name": "Thomas Guilherme Ambrosio da Silva",
+    "assets": [
+      {
+        "id": 93,
+        "asset_tag": "ST0077",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 245,
+        "asset_tag": "ST0169",
+        "serial": "1D140D3",
+        "category": "Monitores"
+      },
+      {
+        "id": 288,
+        "asset_tag": "ST0300",
+        "serial": "H2002D231206770",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "thiago.pinas",
+    "name": "Thiago Cardoso Pinas",
+    "assets": [
+      {
+        "id": 56,
+        "asset_tag": "ST0196",
+        "serial": "H2002d230304613",
+        "category": "Headset"
+      },
+      {
+        "id": 358,
+        "asset_tag": "ST0372",
+        "serial": "406AZHY6G641",
+        "category": "Monitores"
+      },
+      {
+        "id": 359,
+        "asset_tag": "ST0371",
+        "serial": "406AZTH6G649",
+        "category": "Monitores"
+      },
+      {
+        "id": 502,
+        "asset_tag": "ST0491",
+        "serial": "",
+        "category": "Desktop"
+      }
+    ]
+  },
+  {
+    "username": "thiago.costa",
+    "name": "Thiago Costa",
+    "assets": [
+      {
+        "id": 344,
+        "asset_tag": "ST0355",
+        "serial": "CM0073-EO1608085",
+        "category": "Headset"
+      },
+      {
+        "id": 410,
+        "asset_tag": "ST0405",
+        "serial": "ZF52525B8P",
+        "category": "Smartphones"
+      },
+      {
+        "id": 448,
+        "asset_tag": "ST0435",
+        "serial": "PE0E7ZMR",
+        "category": "Notebooks"
+      }
+    ]
+  },
+  {
+    "username": "thayna.santos",
+    "name": "Thayná do Nascimento Santos",
+    "assets": []
+  },
+  {
+    "username": "thalita.vieira",
+    "name": "Thalita Rodrigues Vieira",
+    "assets": [
+      {
+        "id": 45,
+        "asset_tag": "ST0099",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 121,
+        "asset_tag": "ST0144",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 218,
+        "asset_tag": "ST0020",
+        "serial": "07YQ9QCJ300361\t",
+        "category": "Desktop"
+      }
+    ]
+  },
+  {
+    "username": "teste.deletionsete",
+    "name": "Teste Usuario Acessos Deletionsete",
+    "assets": []
+  },
+  {
+    "username": "teste",
+    "name": "Teste",
+    "assets": []
+  },
+  {
+    "username": "teste.dois",
+    "name": "Teste Dois",
+    "assets": []
+  },
+  {
+    "username": "teste.nome",
+    "name": "Teste Nome",
+    "assets": []
+  },
+  {
+    "username": "teste.usuario",
+    "name": "Teste Usuário",
+    "assets": []
+  },
+  {
+    "username": "teste.testado",
+    "name": "Teste da Silva Testado",
+    "assets": []
+  },
+  {
+    "username": "teste.bug",
+    "name": "Teste dos Bug",
+    "assets": []
+  },
+  {
+    "username": "teste.silvaum",
+    "name": "Teste da Silvaum",
+    "assets": []
+  },
+  {
+    "username": "teste.bugdois",
+    "name": "Teste de Bugdois",
+    "assets": []
+  },
+  {
+    "username": "teste.copydata",
+    "name": "Teste para Copydata",
+    "assets": []
+  },
+  {
+    "username": "teste.testsete",
+    "name": "Teste Usuario Acessos Testsete",
+    "assets": []
+  },
+  {
+    "username": "teste.testdez",
+    "name": "Teste Usuario Acessos Testdez",
+    "assets": []
+  },
+  {
+    "username": "teste.testquatro",
+    "name": "Teste Usuario Acessos Testquatro",
+    "assets": []
+  },
+  {
+    "username": "teste.testedoze",
+    "name": "Teste Usuario Acessos Testedoze",
+    "assets": []
+  },
+  {
+    "username": "teste.testseis",
+    "name": "Teste Usuario Acessos Testseis",
+    "assets": []
+  },
+  {
+    "username": "teste.testcinco",
+    "name": "Teste Usuario Acessos Testcinco",
+    "assets": []
+  },
+  {
+    "username": "teste.testum",
+    "name": "Teste Usuario Acessos Testum",
+    "assets": []
+  },
+  {
+    "username": "teste.testtres",
+    "name": "Teste Usuario Acessos Testtres",
+    "assets": []
+  },
+  {
+    "username": "teste.sip",
+    "name": "Teste Sip",
+    "assets": []
+  },
+  {
+    "username": "teste.a1",
+    "name": "Teste Pipedrive A1",
+    "assets": []
+  },
+  {
+    "username": "teste.api",
+    "name": "Teste Pipedrive Api",
+    "assets": []
+  },
+  {
+    "username": "teste.a2",
+    "name": "Teste A2",
+    "assets": []
+  },
+  {
+    "username": "teste.a3",
+    "name": "Teste A3",
+    "assets": []
+  },
+  {
+    "username": "teste.criacoedois",
+    "name": "Teste Usuario Teste Criacoedois",
+    "assets": []
+  },
+  {
+    "username": "teste.admin",
+    "name": "Teste Admin",
+    "assets": []
+  },
+  {
+    "username": "teste.remocaoum",
+    "name": "Teste Usuario Acessos Remocaoum",
+    "assets": []
+  },
+  {
+    "username": "suporte.final",
+    "name": "Suporte Sittax Teste Final",
+    "assets": []
+  },
+  {
+    "username": "snipe",
+    "name": "snipe",
+    "assets": []
+  },
+  {
+    "username": "sibele.oliveira",
+    "name": "Sibele Aparecida de Oliveira",
+    "assets": [
+      {
+        "id": 124,
+        "asset_tag": "ST0156",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 231,
+        "asset_tag": "ST0162",
+        "serial": "5Q8WNJ3",
+        "category": "Monitores"
+      },
+      {
+        "id": 293,
+        "asset_tag": "ST0119",
+        "serial": "",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "share",
+    "name": "share",
+    "assets": []
+  },
+  {
+    "username": "sdr.final",
+    "name": "Sdr Sittax Teste Final",
+    "assets": []
+  },
+  {
+    "username": "sara.magro",
+    "name": "Sara Simone Magro",
+    "assets": []
+  },
+  {
+    "username": "sandy.godoy",
+    "name": "Sandy Clara Godoy",
+    "assets": []
+  },
+  {
+    "username": "samuel.bagolin",
+    "name": "Samuel Garcia Bagolin",
+    "assets": [
+      {
+        "id": 169,
+        "asset_tag": "ST0030",
+        "serial": "4TPJHH3",
+        "category": "Monitores"
+      },
+      {
+        "id": 228,
+        "asset_tag": "ST0276",
+        "serial": "H2002d230701496",
+        "category": "Headset"
+      },
+      {
+        "id": 286,
+        "asset_tag": "ST0299",
+        "serial": "FBFGSH3",
+        "category": "Monitores"
+      },
+      {
+        "id": 427,
+        "asset_tag": "ST0418",
+        "serial": "SPE0D0AJQ",
+        "category": "Notebooks"
+      }
+    ]
+  },
+  {
+    "username": "samara.rocha",
+    "name": "Samara da Silva Rocha",
+    "assets": [
+      {
+        "id": 143,
+        "asset_tag": "ST0224",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 185,
+        "asset_tag": "ST0209",
+        "serial": "872NSH3",
+        "category": "Monitores"
+      },
+      {
+        "id": 325,
+        "asset_tag": "ST0332",
+        "serial": "H2002d231222249",
+        "category": "Headset"
+      },
+      {
+        "id": 433,
+        "asset_tag": "ST0424",
+        "serial": "",
+        "category": "Webcam"
+      }
+    ]
+  },
+  {
+    "username": "rosano.filho",
+    "name": "Rosano Filho",
+    "assets": []
+  },
+  {
+    "username": "ronnyere.rodrigues",
+    "name": "Ronnyere Rodrigues",
+    "assets": []
+  },
+  {
+    "username": "ronald.fontes",
+    "name": "Ronald da Silva Fontes",
+    "assets": [
+      {
+        "id": 131,
+        "asset_tag": "ST0018",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 260,
+        "asset_tag": "ST0227",
+        "serial": "9C18253",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "rodrigo",
+    "name": "Rodrigo Rael",
+    "assets": []
+  },
+  {
+    "username": "rodrigo.conrat",
+    "name": "Rodrigo Conrat",
+    "assets": []
+  },
+  {
+    "username": "rodrigo.buiar",
+    "name": "Rodrigo Moutinho Buiar",
+    "assets": [
+      {
+        "id": 107,
+        "asset_tag": "ST0016",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 183,
+        "asset_tag": "ST0097",
+        "serial": "410KHH3",
+        "category": "Monitores"
+      },
+      {
+        "id": 184,
+        "asset_tag": "ST0098",
+        "serial": "F31TZM3",
+        "category": "Monitores"
+      },
+      {
+        "id": 434,
+        "asset_tag": "ST0427",
+        "serial": "",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "rislayne.camargo",
+    "name": "Rislayne Camargo",
+    "assets": []
+  },
+  {
+    "username": "rhuan.santos",
+    "name": "Rhuan Fabricio Dias dos Santos",
+    "assets": [
+      {
+        "id": 145,
+        "asset_tag": "ST0025",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 210,
+        "asset_tag": "ST0139",
+        "serial": "3RB7253",
+        "category": "Monitores"
+      },
+      {
+        "id": 362,
+        "asset_tag": "ST0341",
+        "serial": "H2002D240326557",
+        "category": "Headset"
+      },
+      {
+        "id": 379,
+        "asset_tag": "ST0441",
+        "serial": "406AZMG6G651",
+        "category": "Monitores"
+      },
+      {
+        "id": 380,
+        "asset_tag": "ST0398",
+        "serial": "406AZSPAB750",
+        "category": "Monitores"
+      },
+      {
+        "id": 407,
+        "asset_tag": "ST0456",
+        "serial": "08240812000381",
+        "category": "Desktop"
+      },
+      {
+        "id": 476,
+        "asset_tag": "ST0480",
+        "serial": "2308-22A00",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "renan.costa",
+    "name": "Renan Reis da Costa",
+    "assets": [
+      {
+        "id": 55,
+        "asset_tag": "ST0190",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 98,
+        "asset_tag": "ST0040",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 227,
+        "asset_tag": "ST0095",
+        "serial": "5N5WNJ3",
+        "category": "Monitores"
+      },
+      {
+        "id": 236,
+        "asset_tag": "ST0102",
+        "serial": "8JDN823",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "renan.maciel",
+    "name": "Renan Willian Maciel",
+    "assets": [
+      {
+        "id": 43,
+        "asset_tag": "ST0118",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 96,
+        "asset_tag": "ST0052",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 347,
+        "asset_tag": "ST0361",
+        "serial": "038021021669",
+        "category": "Webcam"
+      },
+      {
+        "id": 489,
+        "asset_tag": "ST0473",
+        "serial": "008477",
+        "category": "Monitores"
+      },
+      {
+        "id": 490,
+        "asset_tag": "ST0472",
+        "serial": "008917",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "renan.mello",
+    "name": "Renan Godoi Mello",
+    "assets": [
+      {
+        "id": 32,
+        "asset_tag": "ST0075",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 105,
+        "asset_tag": "ST0004",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 271,
+        "asset_tag": "ST0216",
+        "serial": "HL4PG83",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "raul.castelnou",
+    "name": "Raul Castelnou",
+    "assets": []
+  },
+  {
+    "username": "raissa.denes",
+    "name": "Raissa Kelly da Silva Denes",
+    "assets": [
+      {
+        "id": 21,
+        "asset_tag": "ST0233",
+        "serial": "H2002d230206268",
+        "category": "Headset"
+      },
+      {
+        "id": 163,
+        "asset_tag": "ST0060",
+        "serial": "D1SMSH3",
+        "category": "Monitores"
+      },
+      {
+        "id": 170,
+        "asset_tag": "ST0042",
+        "serial": "9ZG8253",
+        "category": "Monitores"
+      },
+      {
+        "id": 237,
+        "asset_tag": "ST0103",
+        "serial": "G4C7253",
+        "category": "Monitores"
+      },
+      {
+        "id": 241,
+        "asset_tag": "ST0186",
+        "serial": "JXC8253",
+        "category": "Monitores"
+      },
+      {
+        "id": 258,
+        "asset_tag": "ST0223",
+        "serial": "38T30D3",
+        "category": "Monitores"
+      },
+      {
+        "id": 319,
+        "asset_tag": "ST0328",
+        "serial": "H2002d231215001",
+        "category": "Headset"
+      },
+      {
+        "id": 405,
+        "asset_tag": "ST0397",
+        "serial": "08240812000388",
+        "category": "Desktop"
+      },
+      {
+        "id": 417,
+        "asset_tag": "ST0409",
+        "serial": "",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "raissa.andrade",
+    "name": "Raissa Cristina de Andrade",
+    "assets": [
+      {
+        "id": 326,
+        "asset_tag": "ST0329",
+        "serial": "PE0CXWV0",
+        "category": "Desktop"
+      }
+    ]
+  },
+  {
+    "username": "raiane.lucas",
+    "name": "Raiane Aparecida Silva Lucas",
+    "assets": [
+      {
+        "id": 378,
+        "asset_tag": "ST0393",
+        "serial": "406AZPUAB768",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "rafael.marques",
+    "name": "Rafael Marques",
+    "assets": [
+      {
+        "id": 253,
+        "asset_tag": "ST0210",
+        "serial": "Y522HX5T901394T",
+        "category": "Monitores"
+      },
+      {
+        "id": 332,
+        "asset_tag": "ST0340",
+        "serial": "PE0CD2ME",
+        "category": "Notebooks"
+      },
+      {
+        "id": 425,
+        "asset_tag": "ST0417",
+        "serial": "",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "rafael.zelak",
+    "name": "Rafael Zelak",
+    "assets": [
+      {
+        "id": 74,
+        "asset_tag": "ST0254",
+        "serial": "",
+        "category": "Tablet"
+      },
+      {
+        "id": 305,
+        "asset_tag": "ST0314",
+        "serial": "MMTPLAA00622701DEB8544",
+        "category": "Monitores"
+      },
+      {
+        "id": 306,
+        "asset_tag": "ST0315",
+        "serial": "MMTPLAA00622701D7F8544",
+        "category": "Monitores"
+      },
+      {
+        "id": 436,
+        "asset_tag": "ST0426",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 474,
+        "asset_tag": "ST0469",
+        "serial": "",
+        "category": "Desktop"
+      }
+    ]
+  },
+  {
+    "username": "rafael.henrique",
+    "name": "Rafael Henrique",
+    "assets": []
+  },
+  {
+    "username": "phelipe.anjos",
+    "name": "Phelipe Augusto Silva dos Anjos",
+    "assets": []
+  },
+  {
+    "username": "phelipe.padoim",
+    "name": "Phelipe da Costa Padoim",
+    "assets": []
+  },
+  {
+    "username": "pfsense",
+    "name": "pfsense",
+    "assets": []
+  },
+  {
+    "username": "pedro.negrao",
+    "name": "Pedro Henrique Negrão",
+    "assets": [
+      {
+        "id": 498,
+        "asset_tag": "ST0496",
+        "serial": "1569",
+        "category": "Monitores"
+      },
+      {
+        "id": 499,
+        "asset_tag": "ST0497",
+        "serial": "1539",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "pedro.amaral",
+    "name": "Pedro Henrique Amaral",
+    "assets": []
+  },
+  {
+    "username": "pedro.silva",
+    "name": "Pedro Paulo de Oliveira Silva",
+    "assets": []
+  },
+  {
+    "username": "paulo.santos",
+    "name": "Paulo Augusto Silva dos Santos",
+    "assets": []
+  },
+  {
+    "username": "paulo.silva",
+    "name": "Paulo Vinicius Santos Da Silva",
+    "assets": [
+      {
+        "id": 47,
+        "asset_tag": "ST0140",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 58,
+        "asset_tag": "ST0207",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 127,
+        "asset_tag": "ST0165",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 215,
+        "asset_tag": "ST0180",
+        "serial": "6CCBTD2",
+        "category": "Monitores"
+      },
+      {
+        "id": 216,
+        "asset_tag": "ST0157",
+        "serial": "4CC30D3",
+        "category": "Monitores"
+      },
+      {
+        "id": 256,
+        "asset_tag": "ST0221",
+        "serial": "GM8FTD2",
+        "category": "Monitores"
+      },
+      {
+        "id": 372,
+        "asset_tag": "ST0383",
+        "serial": "08240812000357",
+        "category": "Desktop"
+      }
+    ]
+  },
+  {
+    "username": "paulo.filho",
+    "name": "Paulo Cesar de Souza Franco Filho",
+    "assets": [
+      {
+        "id": 7,
+        "asset_tag": "ST0082",
+        "serial": "H2002d230201727",
+        "category": "Headset"
+      },
+      {
+        "id": 154,
+        "asset_tag": "ST0048",
+        "serial": "64GVGR3",
+        "category": "Monitores"
+      },
+      {
+        "id": 226,
+        "asset_tag": "ST0085",
+        "serial": "31BVGR3",
+        "category": "Monitores"
+      },
+      {
+        "id": 406,
+        "asset_tag": "ST0386",
+        "serial": "08240812000409",
+        "category": "Desktop"
+      }
+    ]
+  },
+  {
+    "username": "patrick.freitas",
+    "name": "Patrick Freitas",
+    "assets": [
+      {
+        "id": 62,
+        "asset_tag": "ST0080",
+        "serial": "",
+        "category": "Notebooks"
+      },
+      {
+        "id": 262,
+        "asset_tag": "ST0246",
+        "serial": "",
+        "category": "Monitores"
+      },
+      {
+        "id": 342,
+        "asset_tag": "ST0353",
+        "serial": "CM0073-EO1603655",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "pamella.amaral",
+    "name": "Pamella Amaral",
+    "assets": []
+  },
+  {
+    "username": "pamela.santos",
+    "name": "Pamela Naize Teixeira dos Santos",
+    "assets": [
+      {
+        "id": 203,
+        "asset_tag": "ST0183",
+        "serial": "FJRMSH3",
+        "category": "Monitores"
+      },
+      {
+        "id": 264,
+        "asset_tag": "ST0131",
+        "serial": "HRBHTD2",
+        "category": "Monitores"
+      },
+      {
+        "id": 409,
+        "asset_tag": "ST0374",
+        "serial": "08240812000378",
+        "category": "Desktop"
+      }
+    ]
+  },
+  {
+    "username": "oscar.leite",
+    "name": "Oscar Henrique de Souza Leite",
+    "assets": []
+  },
+  {
+    "username": "orlando.hubner",
+    "name": "Orlando Hubner",
+    "assets": []
+  },
+  {
+    "username": "nicollas.kirsten",
+    "name": "Nicollas Kirsten",
+    "assets": [
+      {
+        "id": 78,
+        "asset_tag": "ST0170",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 142,
+        "asset_tag": "ST0013",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 251,
+        "asset_tag": "ST0205",
+        "serial": "79VN823",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "ney.lopes",
+    "name": "Ney",
+    "assets": []
+  },
+  {
+    "username": "murilo.camargo",
+    "name": "Murilo Vinicius Santos Camargo",
+    "assets": [
+      {
+        "id": 302,
+        "asset_tag": "ST0310",
+        "serial": "BRM427CJC0",
+        "category": "Notebooks"
+      },
+      {
+        "id": 307,
+        "asset_tag": "ST0311",
+        "serial": "MMTPLAA00622701DE98544",
+        "category": "Monitores"
+      },
+      {
+        "id": 330,
+        "asset_tag": "ST0338",
+        "serial": "2413CE1303E8",
+        "category": "Kit Mouse + Teclado"
+      }
+    ]
+  },
+  {
+    "username": "murilo.mazur",
+    "name": "Murilo Lucas Mazur",
+    "assets": [
+      {
+        "id": 132,
+        "asset_tag": "ST0184",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 172,
+        "asset_tag": "ST0261",
+        "serial": "MMTPLAA00622701D228544",
+        "category": "Monitores"
+      },
+      {
+        "id": 173,
+        "asset_tag": "ST0262",
+        "serial": "MMTPLAA00622701D208544",
+        "category": "Monitores"
+      },
+      {
+        "id": 336,
+        "asset_tag": "ST0347",
+        "serial": "CM0073-EO1603680",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "moana.santos",
+    "name": "Moana Oliveira dos Santos",
+    "assets": [
+      {
+        "id": 136,
+        "asset_tag": "ST0211",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 255,
+        "asset_tag": "ST0218",
+        "serial": "JWHVNJ3",
+        "category": "Monitores"
+      },
+      {
+        "id": 386,
+        "asset_tag": "ST0401",
+        "serial": "H2002d240313333",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "millena.herrero",
+    "name": "Millena Herrero",
+    "assets": [
+      {
+        "id": 64,
+        "asset_tag": "ST0001",
+        "serial": "0A299QCW300997B",
+        "category": "Notebooks"
+      },
+      {
+        "id": 388,
+        "asset_tag": "ST0403",
+        "serial": "H2002d240403831",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "milene.bagio",
+    "name": "Milene Bagio",
+    "assets": [
+      {
+        "id": 112,
+        "asset_tag": "ST0127",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 345,
+        "asset_tag": "ST0366",
+        "serial": "038021021680",
+        "category": "Webcam"
+      }
+    ]
+  },
+  {
+    "username": "matheus.alves",
+    "name": "Matheus Alves",
+    "assets": [
+      {
+        "id": 108,
+        "asset_tag": "ST0107",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 274,
+        "asset_tag": "ST0198",
+        "serial": "2N3D5W2",
+        "category": "Monitores"
+      },
+      {
+        "id": 451,
+        "asset_tag": "ST0444",
+        "serial": "2130-22A00",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "matheus.martins",
+    "name": "Matheus Souza Martins",
+    "assets": [
+      {
+        "id": 314,
+        "asset_tag": "ST0322",
+        "serial": "PE0CXWTW",
+        "category": "Desktop"
+      },
+      {
+        "id": 324,
+        "asset_tag": "ST0334",
+        "serial": "H2002d231219513",
+        "category": "Headset"
+      },
+      {
+        "id": 356,
+        "asset_tag": "ST0362",
+        "serial": "038021021679",
+        "category": "Webcam"
+      },
+      {
+        "id": 370,
+        "asset_tag": "ST0382",
+        "serial": "406AZDBAB850",
+        "category": "Monitores"
+      },
+      {
+        "id": 371,
+        "asset_tag": "ST0381",
+        "serial": "406AZFMAB763",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "matheus.iarek",
+    "name": "Matheus Iarek",
+    "assets": []
+  },
+  {
+    "username": "matheus.breder",
+    "name": "Matheus Errero do Carmo Breder",
+    "assets": []
+  },
+  {
+    "username": "mateus.lima",
+    "name": "Mateus da Silva Maciel de Lima",
+    "assets": []
+  },
+  {
+    "username": "maria.rodrigues",
+    "name": "Maria Gabriela Rodrigues",
+    "assets": []
+  },
+  {
+    "username": "maria.julia",
+    "name": "Maria Julia",
+    "assets": []
+  },
+  {
+    "username": "maria.moreira",
+    "name": "Maria Eduarda de Liz Moreira",
+    "assets": []
+  },
+  {
+    "username": "marcos.nunes",
+    "name": "Marcos Aurélio Severino Nunes",
+    "assets": [
+      {
+        "id": 51,
+        "asset_tag": "ST0155",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 111,
+        "asset_tag": "ST0231",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 174,
+        "asset_tag": "ST0086",
+        "serial": "HLPR833",
+        "category": "Monitores"
+      },
+      {
+        "id": 354,
+        "asset_tag": "ST0357",
+        "serial": "038021021661",
+        "category": "Webcam"
+      },
+      {
+        "id": 460,
+        "asset_tag": "ST0451",
+        "serial": "1708-22A00",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "marcos.godoi",
+    "name": "Marcos José Costa de Godoi",
+    "assets": []
+  },
+  {
+    "username": "marcelo.tozin",
+    "name": "Marcelo Tozin",
+    "assets": [
+      {
+        "id": 277,
+        "asset_tag": "ST0290",
+        "serial": "PE0BY2CK",
+        "category": "Notebooks"
+      },
+      {
+        "id": 284,
+        "asset_tag": "ST0295",
+        "serial": "51623/63ZP04631",
+        "category": "Smartphones"
+      },
+      {
+        "id": 340,
+        "asset_tag": "ST0351",
+        "serial": "CM0073-EO1605269",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "marcelo.zaidowicz",
+    "name": "Marcelo Augusto Zaidowicz",
+    "assets": [
+      {
+        "id": 249,
+        "asset_tag": "ST0197",
+        "serial": "6TG7253",
+        "category": "Monitores"
+      },
+      {
+        "id": 353,
+        "asset_tag": "ST0363",
+        "serial": "038021021645",
+        "category": "Webcam"
+      }
+    ]
+  },
+  {
+    "username": "maikon.xavier",
+    "name": "Maikon Paganini Xavier",
+    "assets": []
+  },
+  {
+    "username": "lunatico.novo",
+    "name": "Lunatico Picamansa de Novo",
+    "assets": []
+  },
+  {
+    "username": "luis.nascimento",
+    "name": "Luis Fernando Nascimento",
+    "assets": [
+      {
+        "id": 5,
+        "asset_tag": "ST0090",
+        "serial": "H2002d230304612",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "luciana.conte",
+    "name": "Luciana Corrêa Conte",
+    "assets": []
+  },
+  {
+    "username": "lucas.silva",
+    "name": "Lucas Machado da Silva",
+    "assets": [
+      {
+        "id": 313,
+        "asset_tag": "ST0320",
+        "serial": "BRJ411F2VW",
+        "category": "Desktop"
+      },
+      {
+        "id": 437,
+        "asset_tag": "ST0430",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 446,
+        "asset_tag": "ST0439",
+        "serial": "000811",
+        "category": "Monitores"
+      },
+      {
+        "id": 447,
+        "asset_tag": "ST0440",
+        "serial": "000129",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "lucas.ribeiro",
+    "name": "Lucas Matheus",
+    "assets": [
+      {
+        "id": 104,
+        "asset_tag": "ST0072",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 352,
+        "asset_tag": "ST0358",
+        "serial": "038021021647",
+        "category": "Webcam"
+      },
+      {
+        "id": 454,
+        "asset_tag": "ST0446",
+        "serial": "2128-22A00",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "luana.costa",
+    "name": "Luana Costa",
+    "assets": []
+  },
+  {
+    "username": "luana.vieira",
+    "name": "Luana Moreira Vieira",
+    "assets": [
+      {
+        "id": 46,
+        "asset_tag": "ST0138",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 110,
+        "asset_tag": "ST0005",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 240,
+        "asset_tag": "ST0153",
+        "serial": "8FZM823",
+        "category": "Monitores"
+      },
+      {
+        "id": 250,
+        "asset_tag": "ST0203",
+        "serial": "4B040D3",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "sistema_financeiro",
+    "name": "Login Sistema financeiro",
+    "assets": []
+  },
+  {
+    "username": "liz.cruz",
+    "name": "Liz Silva Cruz",
+    "assets": [
+      {
+        "id": 8,
+        "asset_tag": "ST0111",
+        "serial": "H2002d230303385",
+        "category": "Headset"
+      },
+      {
+        "id": 414,
+        "asset_tag": "ST0395",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 419,
+        "asset_tag": "ST0411",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 466,
+        "asset_tag": "ST0458",
+        "serial": "003950",
+        "category": "Monitores"
+      },
+      {
+        "id": 470,
+        "asset_tag": "ST0463",
+        "serial": "001994",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "leticia.costa",
+    "name": "Leticia Costa",
+    "assets": []
+  },
+  {
+    "username": "leonardo.bittencourt",
+    "name": "Leonardo Bittencourt",
+    "assets": [
+      {
+        "id": 63,
+        "asset_tag": "ST0079",
+        "serial": "0A299QCW301117T",
+        "category": "Notebooks"
+      },
+      {
+        "id": 86,
+        "asset_tag": "ST0266",
+        "serial": "H2002d230700040",
+        "category": "Headset"
+      },
+      {
+        "id": 118,
+        "asset_tag": "ST0034",
+        "serial": "Y522HX5W100601X",
+        "category": "Monitores"
+      },
+      {
+        "id": 266,
+        "asset_tag": "ST0280",
+        "serial": "46885/W3VT02906",
+        "category": "Smartphones"
+      },
+      {
+        "id": 348,
+        "asset_tag": "ST0367",
+        "serial": "038021021640",
+        "category": "Webcam"
+      }
+    ]
+  },
+  {
+    "username": "leonardo.holzmann",
+    "name": "Leonardo Garcez Oliveira HOL",
+    "assets": [
+      {
+        "id": 34,
+        "asset_tag": "ST0053",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 116,
+        "asset_tag": "ST0130",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 123,
+        "asset_tag": "ST0154",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 176,
+        "asset_tag": "ST0057",
+        "serial": "2K6PQ83",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "laysa.souza",
+    "name": "Laysa dos Santos de Souza",
+    "assets": [
+      {
+        "id": 73,
+        "asset_tag": "ST0208",
+        "serial": "08C49QAM100894L",
+        "category": "Notebooks"
+      },
+      {
+        "id": 252,
+        "asset_tag": "ST0250",
+        "serial": "MMTPLAA00622701D1D8544",
+        "category": "Monitores"
+      },
+      {
+        "id": 267,
+        "asset_tag": "ST0281",
+        "serial": "",
+        "category": "Smartphones"
+      }
+    ]
+  },
+  {
+    "username": "larissa.valera",
+    "name": "Larissa Valera",
+    "assets": [
+      {
+        "id": 309,
+        "asset_tag": "ST0317",
+        "serial": "SPE0C91NF",
+        "category": "Notebooks"
+      },
+      {
+        "id": 322,
+        "asset_tag": "ST0333",
+        "serial": "MMTPLAA00622701DE18544",
+        "category": "Monitores"
+      },
+      {
+        "id": 328,
+        "asset_tag": "ST0337",
+        "serial": "",
+        "category": "Smartphones"
+      },
+      {
+        "id": 488,
+        "asset_tag": "ST0490",
+        "serial": "2907-22A00",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "larissa.scherebe",
+    "name": "Larissa Rodrigues Scherebe",
+    "assets": []
+  },
+  {
+    "username": "larissa.pereira",
+    "name": "Larissa Roberta Aparecida Pereira",
+    "assets": [
+      {
+        "id": 16,
+        "asset_tag": "ST0191",
+        "serial": "H2002d230304616",
+        "category": "Headset"
+      },
+      {
+        "id": 214,
+        "asset_tag": "ST0150",
+        "serial": "H5NTJF3",
+        "category": "Monitores"
+      },
+      {
+        "id": 248,
+        "asset_tag": "ST0189",
+        "serial": "5NGXNJ3",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "larissa.soares",
+    "name": "Larissa Cristina Freitas Soares",
+    "assets": []
+  },
+  {
+    "username": "laize.santos",
+    "name": "Laize Santos",
+    "assets": [
+      {
+        "id": 90,
+        "asset_tag": "ST0269",
+        "serial": "GAARGQW5XGU4L7X",
+        "category": "Smartphones"
+      },
+      {
+        "id": 141,
+        "asset_tag": "ST0219",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 164,
+        "asset_tag": "ST0069",
+        "serial": "8TFSZM3",
+        "category": "Monitores"
+      },
+      {
+        "id": 165,
+        "asset_tag": "ST0054",
+        "serial": "551MHH3",
+        "category": "Monitores"
+      },
+      {
+        "id": 339,
+        "asset_tag": "ST0350",
+        "serial": "CM0073-E01605267",
+        "category": "Headset"
+      },
+      {
+        "id": 450,
+        "asset_tag": "ST0443",
+        "serial": "PE0E7ZM5",
+        "category": "Notebooks"
+      }
+    ]
+  },
+  {
+    "username": "kharime.mendes",
+    "name": "Kharime Sol Sikoski de Oliveira Mendes",
+    "assets": []
+  },
+  {
+    "username": "kelly.souza",
+    "name": "Kelly Cristina de Souza",
+    "assets": []
+  },
+  {
+    "username": "kawany.santos",
+    "name": "Kawany Melissa Cavalcante dos Santos",
+    "assets": []
+  },
+  {
+    "username": "kauan.rocha",
+    "name": "Kauan Rocha",
+    "assets": []
+  },
+  {
+    "username": "karla.kraft",
+    "name": "Karla Kraft",
+    "assets": []
+  },
+  {
+    "username": "karina.germano",
+    "name": "Karina Elaine Germano",
+    "assets": [
+      {
+        "id": 57,
+        "asset_tag": "ST0182",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 103,
+        "asset_tag": "ST0091",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 161,
+        "asset_tag": "ST0067",
+        "serial": "DX6KHH3",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "juliano.rodrigues",
+    "name": "Juliano Ponijaleki Rodrigues",
+    "assets": [
+      {
+        "id": 20,
+        "asset_tag": "ST0232",
+        "serial": "H2002d230204682",
+        "category": "Headset"
+      },
+      {
+        "id": 102,
+        "asset_tag": "ST0007",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 222,
+        "asset_tag": "ST0094",
+        "serial": "1QNVNJ3",
+        "category": "Monitores"
+      },
+      {
+        "id": 223,
+        "asset_tag": "ST0084",
+        "serial": "CWRVGR3",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "juan.carvalho",
+    "name": "Juan Pablo Wosniak de Carvalho",
+    "assets": [
+      {
+        "id": 486,
+        "asset_tag": "ST0484",
+        "serial": "2303-22A00",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "jose.junior",
+    "name": "José Edvandro Martins de Souza Junior",
+    "assets": []
+  },
+  {
+    "username": "jose.fontes",
+    "name": "José Renato Fontes",
+    "assets": [
+      {
+        "id": 48,
+        "asset_tag": "ST0142",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 114,
+        "asset_tag": "ST0022",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 177,
+        "asset_tag": "ST0058",
+        "serial": "FCXDTD2",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "jonatas.silva",
+    "name": "Jônatas Richardson da Silva",
+    "assets": [
+      {
+        "id": 28,
+        "asset_tag": "ST0059",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 100,
+        "asset_tag": "ST0027",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 261,
+        "asset_tag": "ST0226",
+        "serial": "JL48253",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "jonas.adao",
+    "name": "Jonas Eduardo Adão",
+    "assets": []
+  },
+  {
+    "username": "joaquina.teste",
+    "name": "Joaquina da Sulivan Teste",
+    "assets": []
+  },
+  {
+    "username": "joao.bezerra",
+    "name": "João Pedro Bezerra",
+    "assets": [
+      {
+        "id": 59,
+        "asset_tag": "ST0194",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 191,
+        "asset_tag": "ST0110",
+        "serial": "2R6KHH3",
+        "category": "Monitores"
+      },
+      {
+        "id": 225,
+        "asset_tag": "ST0062",
+        "serial": "3G4MHH3",
+        "category": "Monitores"
+      },
+      {
+        "id": 443,
+        "asset_tag": "ST0434",
+        "serial": "PE0CYCFJ",
+        "category": "Desktop"
+      }
+    ]
+  },
+  {
+    "username": "joao.oliveira",
+    "name": "João Antonio Ganske de Oliveira",
+    "assets": []
+  },
+  {
+    "username": "joao.marques",
+    "name": "João Victor da Silva Marques",
+    "assets": [
+      {
+        "id": 290,
+        "asset_tag": "ST0302",
+        "serial": "H2002D231210216",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "joao.gomes",
+    "name": "João Pedro Lourenço Gomes",
+    "assets": [
+      {
+        "id": 254,
+        "asset_tag": "ST0217",
+        "serial": "JWGVNJ3",
+        "category": "Monitores"
+      },
+      {
+        "id": 269,
+        "asset_tag": "ST0070",
+        "serial": "9PGXNJ3",
+        "category": "Monitores"
+      },
+      {
+        "id": 311,
+        "asset_tag": "ST0321",
+        "serial": "H2002d231214032",
+        "category": "Headset"
+      },
+      {
+        "id": 411,
+        "asset_tag": "ST0442",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 420,
+        "asset_tag": "ST0412",
+        "serial": "038021020517",
+        "category": "Webcam"
+      }
+    ]
+  },
+  {
+    "username": "joao.silva",
+    "name": "João Victor Miranda da Silva",
+    "assets": [
+      {
+        "id": 87,
+        "asset_tag": "ST0267",
+        "serial": "PE0AX4MF",
+        "category": "Desktop"
+      },
+      {
+        "id": 159,
+        "asset_tag": "ST0051",
+        "serial": "8WGKHH3",
+        "category": "Monitores"
+      },
+      {
+        "id": 192,
+        "asset_tag": "ST0109",
+        "serial": "93XJHH3",
+        "category": "Monitores"
+      },
+      {
+        "id": 199,
+        "asset_tag": "ST0255",
+        "serial": "MMTPLAA00622701D118544",
+        "category": "Monitores"
+      },
+      {
+        "id": 200,
+        "asset_tag": "ST0251",
+        "serial": "MMTPLAA00622701D218544 ",
+        "category": "Monitores"
+      },
+      {
+        "id": 384,
+        "asset_tag": "ST0399",
+        "serial": "H2002d240403836",
+        "category": "Headset"
+      },
+      {
+        "id": 421,
+        "asset_tag": "ST0413",
+        "serial": "",
+        "category": "Webcam"
+      }
+    ]
+  },
+  {
+    "username": "joaninha.teste",
+    "name": "Joaninha do Suvaco Teste",
+    "assets": []
+  },
+  {
+    "username": "jhonatan.medeiros",
+    "name": "Jhonatan Edward Siqueira de Medeiros",
+    "assets": [
+      {
+        "id": 125,
+        "asset_tag": "ST0160",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 281,
+        "asset_tag": "ST0294",
+        "serial": "83330D3",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "jheniffer.santos",
+    "name": "Jheniffer Silva dos Santos",
+    "assets": []
+  },
+  {
+    "username": "jeziel.silva",
+    "name": "Jeziel Vinícius Cadaval da Silva",
+    "assets": [
+      {
+        "id": 95,
+        "asset_tag": "ST0011",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 212,
+        "asset_tag": "ST0146",
+        "serial": "21L7253",
+        "category": "Monitores"
+      },
+      {
+        "id": 350,
+        "asset_tag": "ST0368",
+        "serial": "038021021642",
+        "category": "Webcam"
+      },
+      {
+        "id": 453,
+        "asset_tag": "ST0449",
+        "serial": "2131-22A00",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "jessica.santos",
+    "name": "Jessica Roberta dos Santos",
+    "assets": []
+  },
+  {
+    "username": "jefferson.martins",
+    "name": "Jefferson Rodrigues Ebrahin Martins",
+    "assets": [
+      {
+        "id": 85,
+        "asset_tag": "ST0265",
+        "serial": "H2002d230700039",
+        "category": "Headset"
+      },
+      {
+        "id": 135,
+        "asset_tag": "ST0015",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 493,
+        "asset_tag": "ST0471",
+        "serial": "008484",
+        "category": "Monitores"
+      },
+      {
+        "id": 494,
+        "asset_tag": "ST0470",
+        "serial": "008838",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "jaqueline.pereira",
+    "name": "Jaqueline Gonçalves de Andrade Pereira",
+    "assets": [
+      {
+        "id": 152,
+        "asset_tag": "ST0014",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 244,
+        "asset_tag": "ST0174",
+        "serial": "FKVMSH3",
+        "category": "Monitores"
+      },
+      {
+        "id": 263,
+        "asset_tag": "ST0213",
+        "serial": "90H8253",
+        "category": "Monitores"
+      },
+      {
+        "id": 431,
+        "asset_tag": "ST0421",
+        "serial": "",
+        "category": "Webcam"
+      },
+      {
+        "id": 456,
+        "asset_tag": "ST0447",
+        "serial": "1710-22A00",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "janete.jesus",
+    "name": "Janete Freitas dos Anjos Jesus",
+    "assets": []
+  },
+  {
+    "username": "janaina.soares",
+    "name": "Janaína de Oliveira Soares",
+    "assets": [
+      {
+        "id": 147,
+        "asset_tag": "ST0024",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 485,
+        "asset_tag": "ST0482",
+        "serial": "2306-22A00",
+        "category": "Headset"
+      },
+      {
+        "id": 500,
+        "asset_tag": "ST0495",
+        "serial": "960",
+        "category": "Monitores"
+      },
+      {
+        "id": 501,
+        "asset_tag": "ST0494",
+        "serial": "321",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "Izabeli Carvalho",
+    "name": "Izabeli  Martins Carvalho",
+    "assets": []
+  },
+  {
+    "username": "izabeli.carvalho",
+    "name": "Izabeli Martins Carvalho",
+    "assets": []
+  },
+  {
+    "username": "izabel.oliveira",
+    "name": "Izabel Santiago de Oliveira",
+    "assets": [
+      {
+        "id": 70,
+        "asset_tag": "ST0012",
+        "serial": "5CLYWQ2",
+        "category": "Notebooks"
+      },
+      {
+        "id": 201,
+        "asset_tag": "ST0126",
+        "serial": "Y522HX5TA00266M",
+        "category": "Monitores"
+      },
+      {
+        "id": 275,
+        "asset_tag": "ST0287",
+        "serial": "R28R405L8YM",
+        "category": "Smartphones"
+      }
+    ]
+  },
+  {
+    "username": "ismael.moura",
+    "name": "Ismael Alves de Moura",
+    "assets": []
+  },
+  {
+    "username": "isis.fraiz",
+    "name": "Isis Fraiz",
+    "assets": [
+      {
+        "id": 68,
+        "asset_tag": "ST0136",
+        "serial": "7T8NSY2",
+        "category": "Notebooks"
+      },
+      {
+        "id": 205,
+        "asset_tag": "ST0135",
+        "serial": "Y522HX5TA00371D",
+        "category": "Monitores"
+      },
+      {
+        "id": 298,
+        "asset_tag": "ST0308",
+        "serial": "ZF524P36S8",
+        "category": "Smartphones"
+      },
+      {
+        "id": 341,
+        "asset_tag": "ST0352",
+        "serial": "CM0073-EO160B679",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "isaque.santos",
+    "name": "Isaque Claudino dos Santos",
+    "assets": [
+      {
+        "id": 17,
+        "asset_tag": "ST0225",
+        "serial": "H2002d230200924",
+        "category": "Headset"
+      },
+      {
+        "id": 129,
+        "asset_tag": "ST0175",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 381,
+        "asset_tag": "ST0391",
+        "serial": "406AZZXE4933",
+        "category": "Monitores"
+      },
+      {
+        "id": 382,
+        "asset_tag": "ST0392",
+        "serial": "406AZKA6G653",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "isadora.valerio",
+    "name": "Isadora Da Silva Valerio",
+    "assets": [
+      {
+        "id": 130,
+        "asset_tag": "ST0177",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 166,
+        "asset_tag": "ST0031",
+        "serial": "2MXDTD2",
+        "category": "Monitores"
+      },
+      {
+        "id": 429,
+        "asset_tag": "ST0422",
+        "serial": "",
+        "category": "Webcam"
+      },
+      {
+        "id": 459,
+        "asset_tag": "ST0454",
+        "serial": "2857-22A00",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "ingrid.santos",
+    "name": "Ingrid Danieli Souza dos Santos",
+    "assets": [
+      {
+        "id": 190,
+        "asset_tag": "ST0105",
+        "serial": "9NDVGR3",
+        "category": "Monitores"
+      },
+      {
+        "id": 211,
+        "asset_tag": "ST0026",
+        "serial": "49GXNJ3",
+        "category": "Monitores"
+      },
+      {
+        "id": 312,
+        "asset_tag": "ST0319",
+        "serial": "BRJ409DX1Z",
+        "category": "Desktop"
+      },
+      {
+        "id": 479,
+        "asset_tag": "ST0485",
+        "serial": "2953-22A00",
+        "category": "Headset"
+      },
+      {
+        "id": 481,
+        "asset_tag": "ST0487",
+        "serial": "2904-22A00",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "ingrid.silva",
+    "name": "Ingrid Mara da Silva",
+    "assets": []
+  },
+  {
+    "username": "igor.bichibichi",
+    "name": "Igor Socher Bichibichi",
+    "assets": [
+      {
+        "id": 106,
+        "asset_tag": "ST0101",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 351,
+        "asset_tag": "ST0364",
+        "serial": "038021021629",
+        "category": "Webcam"
+      },
+      {
+        "id": 452,
+        "asset_tag": "ST0445",
+        "serial": "2127-22A00",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "hiara.silva",
+    "name": "Hiara Saienne Silva da Silva",
+    "assets": []
+  },
+  {
+    "username": "henrique.makuch",
+    "name": "Henrique Makuch",
+    "assets": [
+      {
+        "id": 317,
+        "asset_tag": "ST0325",
+        "serial": "MMTPLAA00622701D5E8544",
+        "category": "Monitores"
+      },
+      {
+        "id": 366,
+        "asset_tag": "ST0377",
+        "serial": "S8N0B6016207337",
+        "category": "Notebooks"
+      },
+      {
+        "id": 416,
+        "asset_tag": "ST0408",
+        "serial": "",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "gustavo.coelho",
+    "name": "Gustavo Coelho",
+    "assets": [
+      {
+        "id": 97,
+        "asset_tag": "ST0008",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 235,
+        "asset_tag": "ST0278",
+        "serial": "H2002D230700397",
+        "category": "Headset"
+      },
+      {
+        "id": 315,
+        "asset_tag": "ST0323",
+        "serial": "MMTPLAA00622701D838544",
+        "category": "Monitores"
+      },
+      {
+        "id": 316,
+        "asset_tag": "ST0324",
+        "serial": "MMTPLAA00622701D818544",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "gustavo.antonholi",
+    "name": "Gustavo Iembo Antonholi",
+    "assets": []
+  },
+  {
+    "username": "gustavo.lima",
+    "name": "Gustavo de Lima",
+    "assets": []
+  },
+  {
+    "username": "gustavo.pereira",
+    "name": "Gustavo Ferreira Pereira",
+    "assets": []
+  },
+  {
+    "username": "gustavo.romanini",
+    "name": "Gustavo Hortensi Romanini",
+    "assets": [
+      {
+        "id": 80,
+        "asset_tag": "ST0083",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 151,
+        "asset_tag": "ST0089",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 213,
+        "asset_tag": "ST0147",
+        "serial": "36N20D3",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "gustavo.fregati",
+    "name": "Gustavo Fregati",
+    "assets": []
+  },
+  {
+    "username": "guilherme.sobral",
+    "name": "Guilherme Henrique Nunes Sobral",
+    "assets": []
+  },
+  {
+    "username": "guilherme.goncalves",
+    "name": "Guilherme Gonçalves",
+    "assets": [
+      {
+        "id": 137,
+        "asset_tag": "ST0202",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 189,
+        "asset_tag": "ST0104",
+        "serial": "5LJWNJ3",
+        "category": "Monitores"
+      },
+      {
+        "id": 233,
+        "asset_tag": "ST0172",
+        "serial": "Y522HX5T901627M",
+        "category": "Monitores"
+      },
+      {
+        "id": 285,
+        "asset_tag": "ST0296",
+        "serial": "PE0BY55Z",
+        "category": "Notebooks"
+      },
+      {
+        "id": 329,
+        "asset_tag": "ST0339",
+        "serial": "",
+        "category": "Kit Mouse + Teclado"
+      },
+      {
+        "id": 335,
+        "asset_tag": "ST0344",
+        "serial": "CM0073-EO1605142",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "guilherme.zanoni",
+    "name": "Guilherme Zanoni",
+    "assets": [
+      {
+        "id": 134,
+        "asset_tag": "ST0192",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 432,
+        "asset_tag": "ST0420",
+        "serial": "",
+        "category": "Webcam"
+      },
+      {
+        "id": 457,
+        "asset_tag": "ST0453",
+        "serial": "2866-22A00",
+        "category": "Headset"
+      },
+      {
+        "id": 491,
+        "asset_tag": "ST0475",
+        "serial": "008448",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "guilherme.rodrigues",
+    "name": "Guilherme Marçal Rodrigues",
+    "assets": []
+  },
+  {
+    "username": "guilherme.santos",
+    "name": "Guilherme Alves dos Santos",
+    "assets": [
+      {
+        "id": 160,
+        "asset_tag": "ST0038",
+        "serial": "CMCLHH3",
+        "category": "Monitores"
+      },
+      {
+        "id": 464,
+        "asset_tag": "ST0448",
+        "serial": "PE0CYCFR",
+        "category": "Desktop"
+      }
+    ]
+  },
+  {
+    "username": "greice.lima",
+    "name": "Greice Kelly de Lima",
+    "assets": [
+      {
+        "id": 92,
+        "asset_tag": "ST0125",
+        "serial": "",
+        "category": "Desktop"
+      }
+    ]
+  },
+  {
+    "username": "graciela.zanella",
+    "name": "Graciela Pereira Zanella",
+    "assets": []
+  },
+  {
+    "username": "glpi",
+    "name": "glpi",
+    "assets": []
+  },
+  {
+    "username": "git",
+    "name": "git",
+    "assets": []
+  },
+  {
+    "username": "giovanna.baron",
+    "name": "Giovanna Baron",
+    "assets": []
+  },
+  {
+    "username": "giovanna.jesus",
+    "name": "Giovanna Torquato de Jesus",
+    "assets": []
+  },
+  {
+    "username": "geovana.cardoso",
+    "name": "Geovana Rodrigues Dias Cardoso",
+    "assets": []
+  },
+  {
+    "username": "gabrielle.blazius",
+    "name": "Gabrielle de Oliveira Blazius",
+    "assets": [
+      {
+        "id": 40,
+        "asset_tag": "ST0185",
+        "serial": "H2002d230301736",
+        "category": "Headset"
+      },
+      {
+        "id": 109,
+        "asset_tag": "ST0009",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 360,
+        "asset_tag": "ST0369",
+        "serial": "406AZUJ6G654",
+        "category": "Monitores"
+      },
+      {
+        "id": 373,
+        "asset_tag": "ST0387",
+        "serial": "406AZCQE5267",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "gabrielle.santos",
+    "name": "Gabrielle Rodrigues dos Santos",
+    "assets": []
+  },
+  {
+    "username": "gabriela.silva",
+    "name": "Gabriela Aparecida da Silva",
+    "assets": []
+  },
+  {
+    "username": "gabriela.rodrigues",
+    "name": "Gabriela da Silva Rodrigues",
+    "assets": [
+      {
+        "id": 162,
+        "asset_tag": "ST0068",
+        "serial": "8JCN823",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "gabriel.santiago",
+    "name": "Gabriel Santiago",
+    "assets": []
+  },
+  {
+    "username": "gabriel.moura",
+    "name": "Gabriel Moura",
+    "assets": [
+      {
+        "id": 25,
+        "asset_tag": "ST0298",
+        "serial": "H2002d230301723",
+        "category": "Headset"
+      },
+      {
+        "id": 208,
+        "asset_tag": "ST0243",
+        "serial": "Y4SKHX5W307070E",
+        "category": "Monitores"
+      },
+      {
+        "id": 426,
+        "asset_tag": "ST0419",
+        "serial": "SPE0D0AGM",
+        "category": "Notebooks"
+      }
+    ]
+  },
+  {
+    "username": "gabriel.budziak",
+    "name": "Gabriel Fernandes Dias Budziak",
+    "assets": [
+      {
+        "id": 27,
+        "asset_tag": "ST0240",
+        "serial": "H2002d230207692",
+        "category": "Headset"
+      },
+      {
+        "id": 138,
+        "asset_tag": "ST0206",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 423,
+        "asset_tag": "ST0415",
+        "serial": "",
+        "category": "Webcam"
+      },
+      {
+        "id": 444,
+        "asset_tag": "ST0437",
+        "serial": "000541",
+        "category": "Monitores"
+      },
+      {
+        "id": 445,
+        "asset_tag": "ST0438",
+        "serial": "000118",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "gabriel.aguiar",
+    "name": "Gabriel Aguiar",
+    "assets": [
+      {
+        "id": 91,
+        "asset_tag": "ST0050",
+        "serial": "NACHGNAG",
+        "category": "Armazenamento Externo"
+      },
+      {
+        "id": 117,
+        "asset_tag": "ST0065",
+        "serial": "Y522HX5W100708T",
+        "category": "Monitores"
+      },
+      {
+        "id": 301,
+        "asset_tag": "ST0309",
+        "serial": "20SJW44",
+        "category": "Notebooks"
+      },
+      {
+        "id": 435,
+        "asset_tag": "ST0425",
+        "serial": "",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "gabriel.nascimento",
+    "name": "Gabriel Vieira do Nascimento",
+    "assets": []
+  },
+  {
+    "username": "gabriel.rangel",
+    "name": "Gabriel Rangel",
+    "assets": [
+      {
+        "id": 3,
+        "asset_tag": "ST0055",
+        "serial": "H2002d230201722",
+        "category": "Headset"
+      },
+      {
+        "id": 181,
+        "asset_tag": "ST0252",
+        "serial": "MMTPLAA00622701D168544",
+        "category": "Monitores"
+      },
+      {
+        "id": 449,
+        "asset_tag": "ST0436",
+        "serial": "PE0E7ZLT",
+        "category": "Notebooks"
+      }
+    ]
+  },
+  {
+    "username": "gabriel.teste",
+    "name": "Gabriel da Silva Teste",
+    "assets": []
+  },
+  {
+    "username": "gabriel.santos",
+    "name": "Gabriel França Cirino dos Santos",
+    "assets": [
+      {
+        "id": 140,
+        "asset_tag": "ST0234",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 234,
+        "asset_tag": "ST0178",
+        "serial": "5K9WNJ3",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "francielly.alves",
+    "name": "Francielly Fernanda Martins Alves",
+    "assets": []
+  },
+  {
+    "username": "francielle.silva",
+    "name": "Francielle Cristina da Silva",
+    "assets": []
+  },
+  {
+    "username": "francielle.teles",
+    "name": "Francielle Maria Teles",
+    "assets": []
+  },
+  {
+    "username": "florencio.netto",
+    "name": "Florêncio Cardoso Mendes Netto",
+    "assets": [
+      {
+        "id": 157,
+        "asset_tag": "ST0273",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 364,
+        "asset_tag": "ST0375",
+        "serial": "Y52THX5X800842B",
+        "category": "Monitores"
+      },
+      {
+        "id": 365,
+        "asset_tag": "ST0376",
+        "serial": "T52THX5X800250K",
+        "category": "Monitores"
+      },
+      {
+        "id": 480,
+        "asset_tag": "ST0486",
+        "serial": "2726-22A00",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "fernando.toledo",
+    "name": "Fernando Grilo Toledo",
+    "assets": [
+      {
+        "id": 38,
+        "asset_tag": "ST0088",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 155,
+        "asset_tag": "ST0033",
+        "serial": "63FVGR3",
+        "category": "Monitores"
+      },
+      {
+        "id": 257,
+        "asset_tag": "ST0220",
+        "serial": "2L4PG83",
+        "category": "Monitores"
+      },
+      {
+        "id": 377,
+        "asset_tag": "ST0394",
+        "serial": "406AZYE6G666",
+        "category": "Monitores"
+      },
+      {
+        "id": 422,
+        "asset_tag": "ST0414",
+        "serial": "",
+        "category": "Webcam"
+      },
+      {
+        "id": 463,
+        "asset_tag": "ST0466",
+        "serial": "PEOCPFLM",
+        "category": "Desktop"
+      }
+    ]
+  },
+  {
+    "username": "felipi.buettgen",
+    "name": "Felipi Buettgen",
+    "assets": [
+      {
+        "id": 150,
+        "asset_tag": "ST0200",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 477,
+        "asset_tag": "ST0481",
+        "serial": "2855-22A00",
+        "category": "Headset"
+      },
+      {
+        "id": 492,
+        "asset_tag": "ST0474",
+        "serial": "008931",
+        "category": "Monitores"
+      },
+      {
+        "id": 497,
+        "asset_tag": "ST0493",
+        "serial": "0956",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "felipe.munhoz",
+    "name": "Felipe Munhoz",
+    "assets": [
+      {
+        "id": 71,
+        "asset_tag": "ST0171",
+        "serial": "HFVQ0L2",
+        "category": "Notebooks"
+      },
+      {
+        "id": 187,
+        "asset_tag": "ST0123",
+        "serial": "5M8WNJ3",
+        "category": "Monitores"
+      },
+      {
+        "id": 338,
+        "asset_tag": "ST0349",
+        "serial": "CM0073-EO1605271",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "felipe.macedo",
+    "name": "Felipe Macedo",
+    "assets": []
+  },
+  {
+    "username": "felipe.anjos",
+    "name": "Felipe Matias dos Anjos",
+    "assets": [
+      {
+        "id": 122,
+        "asset_tag": "ST0148",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 243,
+        "asset_tag": "ST0193",
+        "serial": "21C7253",
+        "category": "Monitores"
+      },
+      {
+        "id": 424,
+        "asset_tag": "ST0416",
+        "serial": "",
+        "category": "Webcam"
+      },
+      {
+        "id": 458,
+        "asset_tag": "ST0452",
+        "serial": "1277-22A00",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "everton.santos",
+    "name": "Everton Luiz dos Santos",
+    "assets": []
+  },
+  {
+    "username": "ester.callegaro",
+    "name": "Ester Callegaro",
+    "assets": [
+      {
+        "id": 401,
+        "asset_tag": "Kit #015",
+        "serial": "015",
+        "category": "Outros"
+      }
+    ]
+  },
+  {
+    "username": "esdras.camilo",
+    "name": "Esdras Camilo",
+    "assets": [
+      {
+        "id": 126,
+        "asset_tag": "ST0164",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 273,
+        "asset_tag": "ST0286",
+        "serial": "CQYDLFZL4HUKKB69",
+        "category": "Smartphones"
+      }
+    ]
+  },
+  {
+    "username": "emily.araujo",
+    "name": "Emily Pereira de Araujo Emily Pereira de Araujo",
+    "assets": []
+  },
+  {
+    "username": "emerson.filho",
+    "name": "Emerson Moraes dos Santos Filho",
+    "assets": [
+      {
+        "id": 88,
+        "asset_tag": "ST0268",
+        "serial": "PE0AX4J3",
+        "category": "Desktop"
+      },
+      {
+        "id": 368,
+        "asset_tag": "ST0379",
+        "serial": "406AZBZE5333",
+        "category": "Monitores"
+      },
+      {
+        "id": 369,
+        "asset_tag": "ST0380",
+        "serial": "406AZGF6G623",
+        "category": "Monitores"
+      },
+      {
+        "id": 387,
+        "asset_tag": "ST0402",
+        "serial": "H2002d240403832",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "elton.santos",
+    "name": "Elton Santos",
+    "assets": []
+  },
+  {
+    "username": "ellen.silva",
+    "name": "Ellen Djeine da Silva",
+    "assets": [
+      {
+        "id": 363,
+        "asset_tag": "ST0373",
+        "serial": "08240812000370",
+        "category": "Desktop"
+      }
+    ]
+  },
+  {
+    "username": "elielton.ferreira",
+    "name": "Elielton dos Santos Ferreira",
+    "assets": [
+      {
+        "id": 246,
+        "asset_tag": "ST0284",
+        "serial": "3TXLHH3",
+        "category": "Monitores"
+      },
+      {
+        "id": 323,
+        "asset_tag": "ST0335",
+        "serial": "H2002d231215495",
+        "category": "Headset"
+      },
+      {
+        "id": 473,
+        "asset_tag": "ST0467",
+        "serial": "PE0E7ZM0",
+        "category": "Notebooks"
+      }
+    ]
+  },
+  {
+    "username": "eduardo.castro",
+    "name": "Eduardo Bastos Castro",
+    "assets": [
+      {
+        "id": 115,
+        "asset_tag": "ST0023",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 180,
+        "asset_tag": "ST0081",
+        "serial": "Y522HX5T900627L",
+        "category": "Monitores"
+      },
+      {
+        "id": 186,
+        "asset_tag": "ST0188",
+        "serial": "5SV20D3",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "eduardo.souza",
+    "name": "Eduardo Aníbal Rossi de Souza",
+    "assets": [
+      {
+        "id": 18,
+        "asset_tag": "ST0229",
+        "serial": "H2002d230307736",
+        "category": "Headset"
+      },
+      {
+        "id": 139,
+        "asset_tag": "ST0214",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 468,
+        "asset_tag": "ST0462",
+        "serial": "001230",
+        "category": "Monitores"
+      },
+      {
+        "id": 471,
+        "asset_tag": "ST0464",
+        "serial": "001069",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "douglas.melo",
+    "name": "Douglas Henrique de Melo",
+    "assets": [
+      {
+        "id": 4,
+        "asset_tag": "ST0237",
+        "serial": "H2002d230304112",
+        "category": "Headset"
+      },
+      {
+        "id": 101,
+        "asset_tag": "ST0044",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 239,
+        "asset_tag": "ST0093",
+        "serial": "6M58253",
+        "category": "Monitores"
+      },
+      {
+        "id": 308,
+        "asset_tag": "ST0316",
+        "serial": "H2002d231210576",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "douglas.louteiro",
+    "name": "Douglas Louteiro",
+    "assets": [
+      {
+        "id": 66,
+        "asset_tag": "ST0113",
+        "serial": "P4PXJRVHD6",
+        "category": "Notebooks"
+      },
+      {
+        "id": 195,
+        "asset_tag": "ST0116",
+        "serial": "Y522HX5T901651T",
+        "category": "Monitores"
+      },
+      {
+        "id": 440,
+        "asset_tag": "ST0431",
+        "serial": "",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "diogo.goncalves",
+    "name": "Diogo Gonçalves",
+    "assets": [
+      {
+        "id": 206,
+        "asset_tag": "ST0258",
+        "serial": "Y4SKHX5W307067D",
+        "category": "Monitores"
+      },
+      {
+        "id": 207,
+        "asset_tag": "ST0244",
+        "serial": "Y4SKHX5W306896Z",
+        "category": "Monitores"
+      },
+      {
+        "id": 297,
+        "asset_tag": "ST0306",
+        "serial": "",
+        "category": "Access Point"
+      },
+      {
+        "id": 327,
+        "asset_tag": "ST0336",
+        "serial": "PE0CXWTV",
+        "category": "Desktop"
+      },
+      {
+        "id": 413,
+        "asset_tag": "ST0407",
+        "serial": "",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "diego.cunha",
+    "name": "Diego De Almeida Cunha",
+    "assets": [
+      {
+        "id": 67,
+        "asset_tag": "ST0115",
+        "serial": "Q203V96YY6",
+        "category": "Notebooks"
+      },
+      {
+        "id": 198,
+        "asset_tag": "ST0249",
+        "serial": "MMTPLAA00622701D1C8544",
+        "category": "Monitores"
+      },
+      {
+        "id": 343,
+        "asset_tag": "ST0354",
+        "serial": "CM0073-EO1601846",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "diego.ribeiro",
+    "name": "Diego dos Santos Ribeiro",
+    "assets": []
+  },
+  {
+    "username": "dados",
+    "name": "dados",
+    "assets": []
+  },
+  {
+    "username": "cristopher.silva",
+    "name": "Cristopher Silva",
+    "assets": []
+  },
+  {
+    "username": "christian.calzadilla",
+    "name": "Christian de Jesus Chirinos Calzadilla",
+    "assets": []
+  },
+  {
+    "username": "celton.rocha",
+    "name": "Celton Rocha",
+    "assets": []
+  },
+  {
+    "username": "caroline.lima",
+    "name": "Caroline Pereira de Lima",
+    "assets": []
+  },
+  {
+    "username": "carolina.carvalho",
+    "name": "Carolina Drumond Scholz de Carvalho",
+    "assets": [
+      {
+        "id": 60,
+        "asset_tag": "ST0212",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 99,
+        "asset_tag": "ST0041",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 171,
+        "asset_tag": "ST0043",
+        "serial": "56X9TD2",
+        "category": "Monitores"
+      },
+      {
+        "id": 230,
+        "asset_tag": "ST0161",
+        "serial": "18YMSH3",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "camila.martins",
+    "name": "Camila dos Santos Martins",
+    "assets": []
+  },
+  {
+    "username": "caio.rasera",
+    "name": "Caio Cremonini Rasera",
+    "assets": [
+      {
+        "id": 22,
+        "asset_tag": "ST0235",
+        "serial": "H2002d230304103",
+        "category": "Headset"
+      },
+      {
+        "id": 270,
+        "asset_tag": "ST0283",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 375,
+        "asset_tag": "ST0389",
+        "serial": "406AZZX6G621",
+        "category": "Monitores"
+      },
+      {
+        "id": 376,
+        "asset_tag": "ST0388",
+        "serial": "406AZQV6G668",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "cacia.souza",
+    "name": "Cácia da Silva Souza",
+    "assets": [
+      {
+        "id": 84,
+        "asset_tag": "ST0264",
+        "serial": "H2002d230704691",
+        "category": "Headset"
+      },
+      {
+        "id": 193,
+        "asset_tag": "ST0112",
+        "serial": "Y522HX5TA00407K",
+        "category": "Monitores"
+      },
+      {
+        "id": 442,
+        "asset_tag": "ST0433",
+        "serial": "PE0E80YQ",
+        "category": "Notebooks"
+      }
+    ]
+  },
+  {
+    "username": "bruno.marcondes",
+    "name": "Bruno Marcondes Paula da Silva",
+    "assets": []
+  },
+  {
+    "username": "bruno.ianai",
+    "name": "Bruno Ricardo Ianai",
+    "assets": []
+  },
+  {
+    "username": "bruno.lima",
+    "name": "Bruno Eduardo Soares Lima",
+    "assets": [
+      {
+        "id": 403,
+        "asset_tag": "Kit #000 (ST0395)",
+        "serial": "000",
+        "category": "Outros"
+      }
+    ]
+  },
+  {
+    "username": "bruno.silva",
+    "name": "Bruno Herik da Silva",
+    "assets": [
+      {
+        "id": 14,
+        "asset_tag": "ST0179",
+        "serial": "H2002d230303205",
+        "category": "Headset"
+      },
+      {
+        "id": 168,
+        "asset_tag": "ST0029",
+        "serial": "F28JHH3",
+        "category": "Monitores"
+      },
+      {
+        "id": 224,
+        "asset_tag": "ST0047",
+        "serial": "5JGKHH3",
+        "category": "Monitores"
+      },
+      {
+        "id": 367,
+        "asset_tag": "ST0378",
+        "serial": "08240812000364",
+        "category": "Desktop"
+      }
+    ]
+  },
+  {
+    "username": "bruna.alvarenga",
+    "name": "Bruna de Magalhães Alvarenga",
+    "assets": [
+      {
+        "id": 24,
+        "asset_tag": "ST0238",
+        "serial": "H2002d230301729",
+        "category": "Headset"
+      },
+      {
+        "id": 144,
+        "asset_tag": "ST0228",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 465,
+        "asset_tag": "ST0459",
+        "serial": "001211",
+        "category": "Monitores"
+      },
+      {
+        "id": 469,
+        "asset_tag": "ST0460",
+        "serial": "002883",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "bianca.peron",
+    "name": "Bianca Pirola Peron",
+    "assets": []
+  },
+  {
+    "username": "bianca.souza",
+    "name": "Bianca Emanoely da Silva de Souza",
+    "assets": []
+  },
+  {
+    "username": "beatriz.cemiauskas",
+    "name": "Beatriz Maltezo Cerniauskas",
+    "assets": [
+      {
+        "id": 119,
+        "asset_tag": "ST0006",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 355,
+        "asset_tag": "ST0360",
+        "serial": "038021021657",
+        "category": "Webcam"
+      },
+      {
+        "id": 467,
+        "asset_tag": "ST0461",
+        "serial": "002944",
+        "category": "Monitores"
+      },
+      {
+        "id": 472,
+        "asset_tag": "ST0465",
+        "serial": "002855",
+        "category": "Monitores"
+      },
+      {
+        "id": 484,
+        "asset_tag": "ST0479",
+        "serial": "2300-22A00",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "beatriz.rabelo",
+    "name": "Beatriz dos Santos Rabelo",
+    "assets": []
+  },
+  {
+    "username": "arthur.bittencourt",
+    "name": "Arthur Bittencourt",
+    "assets": [
+      {
+        "id": 247,
+        "asset_tag": "ST0132",
+        "serial": "6LD8253",
+        "category": "Monitores"
+      },
+      {
+        "id": 333,
+        "asset_tag": "ST0345",
+        "serial": "CM0073-EO1605083",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "antony.camargo",
+    "name": "Antony Lidio Camargo",
+    "assets": [
+      {
+        "id": 94,
+        "asset_tag": "ST0010",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 361,
+        "asset_tag": "ST0370",
+        "serial": "406AZDBAB874",
+        "category": "Monitores"
+      },
+      {
+        "id": 374,
+        "asset_tag": "ST0390",
+        "serial": "406AZGFE5271",
+        "category": "Monitores"
+      },
+      {
+        "id": 385,
+        "asset_tag": "ST0400",
+        "serial": "H2002d240313327",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "andressa.assis",
+    "name": "Andressa Cristiane de Assis",
+    "assets": []
+  },
+  {
+    "username": "andrei.rosa",
+    "name": "Andrei José Ricardo Rosa",
+    "assets": [
+      {
+        "id": 19,
+        "asset_tag": "ST0181",
+        "serial": "H2002d230206272",
+        "category": "Headset"
+      },
+      {
+        "id": 49,
+        "asset_tag": "ST0145",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 156,
+        "asset_tag": "ST0195",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 202,
+        "asset_tag": "ST0129",
+        "serial": "3RR35W2",
+        "category": "Monitores"
+      }
+    ]
+  },
+  {
+    "username": "ana.silva",
+    "name": "Ana Júlia Silva",
+    "assets": []
+  },
+  {
+    "username": "ana.mercer",
+    "name": "Ana Carolina Vanzuita Mercer",
+    "assets": [
+      {
+        "id": 37,
+        "asset_tag": "ST0028",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 113,
+        "asset_tag": "ST0187",
+        "serial": "",
+        "category": "Desktop"
+      },
+      {
+        "id": 167,
+        "asset_tag": "ST0046",
+        "serial": "DRMTJF3",
+        "category": "Monitores"
+      },
+      {
+        "id": 175,
+        "asset_tag": "ST0087",
+        "serial": "H5JTJF3",
+        "category": "Monitores"
+      },
+      {
+        "id": 320,
+        "asset_tag": "ST0331",
+        "serial": "h2002D231219515",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "ana.ortiz",
+    "name": "Ana Luisa da Silva Ortiz",
+    "assets": []
+  },
+  {
+    "username": "ana.amancio",
+    "name": "Ana Vitoria dos Santos Amancio",
+    "assets": []
+  },
+  {
+    "username": "ana.santos",
+    "name": "Ana Flavia do Carmo dos Santos",
+    "assets": []
+  },
+  {
+    "username": "alysson.colosso",
+    "name": "Alyson Lindolfo da Silva Colosso",
+    "assets": []
+  },
+  {
+    "username": "alysson.colasso",
+    "name": "Alyson Lindolfo da Silva Colasso",
+    "assets": []
+  },
+  {
+    "username": "beatriz.silva",
+    "name": "Alyce Beatriz dos Santos Silva",
+    "assets": []
+  },
+  {
+    "username": "alisson.leineker",
+    "name": "Alisson Durau Leineker",
+    "assets": [
+      {
+        "id": 11,
+        "asset_tag": "ST0151",
+        "serial": "H2002d230207691",
+        "category": "Headset"
+      },
+      {
+        "id": 178,
+        "asset_tag": "ST0073",
+        "serial": "8VZRZM3",
+        "category": "Monitores"
+      },
+      {
+        "id": 179,
+        "asset_tag": "ST0074",
+        "serial": "DB8SZM3",
+        "category": "Monitores"
+      },
+      {
+        "id": 404,
+        "asset_tag": "ST0396",
+        "serial": "0824081200390",
+        "category": "Desktop"
+      }
+    ]
+  },
+  {
+    "username": "aline.santos",
+    "name": "Aline Corrêa Santos",
+    "assets": [
+      {
+        "id": 242,
+        "asset_tag": "ST0241",
+        "serial": "5R230D3",
+        "category": "Monitores"
+      },
+      {
+        "id": 487,
+        "asset_tag": "ST0489",
+        "serial": "2721-22A00",
+        "category": "Headset"
+      },
+      {
+        "id": 496,
+        "asset_tag": "ST0492",
+        "serial": "",
+        "category": "Desktop"
+      }
+    ]
+  },
+  {
+    "username": "alexandre.nunes",
+    "name": "Alexandre de Oliveira Nunes",
+    "assets": []
+  },
+  {
+    "username": "aleir.junior",
+    "name": "Aleir Sanches Junior",
+    "assets": [
+      {
+        "id": 69,
+        "asset_tag": "ST0002",
+        "serial": "0A569QBT500105",
+        "category": "Notebooks"
+      },
+      {
+        "id": 209,
+        "asset_tag": "ST0259",
+        "serial": "Y4SKHX5W307113W",
+        "category": "Monitores"
+      },
+      {
+        "id": 337,
+        "asset_tag": "ST0348",
+        "serial": "CM073-EO1605272",
+        "category": "Headset"
+      }
+    ]
+  },
+  {
+    "username": "alaor.pereira",
+    "name": "Alaor Pereira",
+    "assets": [
+      {
+        "id": 196,
+        "asset_tag": "ST0120",
+        "serial": "54CLHH3",
+        "category": "Monitores"
+      },
+      {
+        "id": 197,
+        "asset_tag": "ST0121",
+        "serial": "FFWSZM3",
+        "category": "Monitores"
+      },
+      {
+        "id": 287,
+        "asset_tag": "ST0066",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 461,
+        "asset_tag": "ST0455",
+        "serial": "PE0CPFLN",
+        "category": "Desktop"
+      }
+    ]
+  },
+  {
+    "username": "aisha.souza",
+    "name": "Aisha Eduarda Martins de Souza",
+    "assets": []
+  },
+  {
+    "username": "adriely.fagundes",
+    "name": "Adriely De Jesus Fagundes",
+    "assets": [
+      {
+        "id": 120,
+        "asset_tag": "ST0143",
+        "serial": "",
+        "category": "Desktop"
+      }
+    ]
+  },
+  {
+    "username": "adriele.pinto",
+    "name": "Adriele Adriele Eclemann Pinto",
+    "assets": []
+  },
+  {
+    "username": "adriano.souza",
+    "name": "Adriano Domingues Souza",
+    "assets": [
+      {
+        "id": 65,
+        "asset_tag": "ST0003",
+        "serial": "0A569QBT500740",
+        "category": "Notebooks"
+      },
+      {
+        "id": 79,
+        "asset_tag": "ST0117",
+        "serial": "",
+        "category": "Headset"
+      },
+      {
+        "id": 415,
+        "asset_tag": "ST0327",
+        "serial": "MMTPLAA00622701D868544",
+        "category": "Monitores"
+      },
+      {
+        "id": 462,
+        "asset_tag": "ST0457",
+        "serial": "CCI14LP099AT1",
+        "category": "Kit Mouse + Teclado"
+      }
+    ]
+  },
+  {
+    "username": "adriano.demetrio",
+    "name": "Adriano Gabriel Demetrio",
+    "assets": []
+  },
+  {
+    "username": "adriane.maia",
+    "name": "Adriane Morais da Maia",
+    "assets": [
+      {
+        "id": 158,
+        "asset_tag": "ST0036",
+        "serial": "8TGKHH3",
+        "category": "Monitores"
+      },
+      {
+        "id": 310,
+        "asset_tag": "ST0318",
+        "serial": "H2002D231218946",
+        "category": "Headset"
+      },
+      {
+        "id": 412,
+        "asset_tag": "ST0406",
+        "serial": "SPE0D0AGD",
+        "category": "Notebooks"
+      }
+    ]
+  }
+]
