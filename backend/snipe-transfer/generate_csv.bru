@@ -1,0 +1,24 @@
+meta {
+  name: generate_csv
+  type: http
+  seq: 1
+}
+
+post {
+  url: http://localhost:8000/assign/vincular-ativos
+  body: json
+  auth: inherit
+}
+
+body:json {
+  [
+    {"username": "bruno.silva", "asset_tag": "ST0378"},
+    {"username": "bruno.silva", "asset_tag": "ST0179"},
+    {"username": "beatriz.cemiauskas", "asset_tag": "ST0199"},
+    {"username": "rafael.zelak", "asset_tag": "ST00469"}
+  ]
+}
+
+settings {
+  encodeUrl: true
+}
