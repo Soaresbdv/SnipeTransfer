@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Vincular Ativos</title>
+  <link rel="stylesheet" href="./styles/main.css">
+  <link rel="stylesheet" href="/static/styles/main.css">
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+<body>
+  <div id="app">
+    <h1>Vincular Ativos</h1>
+
+    <div>
+      <label>Usuário:</label>
+      <input type="text" v-model="search" @input="fetchUsers" list="users" />
+      <datalist id="users">
+        <option v-for="u in suggestions" :value="u" />
+      </datalist>
+    </div>
+
+    <div>
+      <label>Número do Ativo:</label>
+      <input type="number" v-model="assetNumber" />
+    </div>
+
+    <button @click="addVinculo">Adicionar</button>
+
+    <hr>
+
+    <h2>Lista de Vínculos</h2>
+    <ul>
+      <li v-for="(v, index) in vinculos" :key="index">
+        {{ v.username }} — {{ v.asset_tag }}
+      </li>
+    </ul>
+
+    <button @click="enviarVinculos">Vincular</button>
+    <button @click="baixarCSV">Baixar CSV</button>
+  </div>
+
+  <script src="./scripts/app.js"></script>
+</body>
+</html>
