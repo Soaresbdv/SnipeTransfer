@@ -3,6 +3,7 @@ const { createApp } = Vue;
 createApp({
   data() {
     return {
+      mode: 'form',
       search: '',
       suggestions: [],
       selectedUser: null,
@@ -12,27 +13,25 @@ createApp({
     };
   },
   methods: {
-    async fetchUsers() {
-      if (this.search.length < 2) {
-        this.suggestions = [];
-        return;
-      }
-      try {
-        const response = await axios.get(`/ldap/search?term=${this.search}`);
-        this.suggestions = response.data;
-        this.showSuggestions = true;
-      } catch (error) {
-        console.error('Erro ao buscar usuários:', error);
-      }
-    },
+    // Navigation
+    goToList() { this.mode = 'list'; },
+    goToForm() { this.mode = 'form'; },
 
+    // LDAP search
+    async fetchUsers() {
+      if (this.search.length < 2) { this.suggestions = []; return; }
+      try {
+        const res = await axios.get(`/ldap/search?term=${this.search}`);
+        this.suggestions = res.data;
+        this.showSuggestions = true;
+      } catch (e) { console.error('Fetch users error:', e); }
+    },
     selectUser(user) {
       this.search = user.username;
       this.selectedUser = user;
       this.suggestions = [];
       this.showSuggestions = false;
     },
-
     applySuggestion() {
       if (!this.selectedUser || this.search !== this.selectedUser.username) {
         this.selectedUser = null;
@@ -40,29 +39,44 @@ createApp({
       this.showSuggestions = false;
     },
 
+    // Helpers
+    formatAssetTag(input) {
+      let raw = String(input).trim().toUpperCase();
+      if (raw.startsWith("ST")) raw = raw.slice(2);
+      raw = raw.replace(/\D/g, "");
+      if (raw.length === 0 || raw.length > 4) return null;
+      return "ST" + raw.padStart(4, "0");
+    },
+    ownersForTag(tag, excludeUser) {
+      const owners = this.vinculos
+        .filter(v => v.asset_tag === tag && v.username !== excludeUser)
+        .map(v => v.username);
+      return [...new Set(owners)];
+    },
+
+    // Add vinculo with duplicate owner warning
     addVinculo() {
       if (!this.selectedUser || !this.assetNumber) {
         alert("Selecione um usuário válido e insira o número do ativo.");
         return;
       }
 
-      const tag = String(this.assetNumber).trim(); // mantém como string (evita 422)
-      const exists = this.vinculos.some(v => v.asset_tag === tag);
+      const tag = this.formatAssetTag(this.assetNumber);
+      if (!tag) { alert("Número do ativo inválido. Use 1 a 4 dígitos."); return; }
 
-      if (exists) {
-        const proceed = confirm(`O ativo ${tag} já está na lista. Deseja inserir mesmo assim com flag?`);
+      const owners = this.ownersForTag(tag, this.selectedUser.username);
+      if (owners.length > 0) {
+        const proceed = confirm(
+          `O ativo ${tag} já está na lista com: ${owners.join(", ")}.\n` +
+          `Deseja inserir mesmo assim?`
+        );
         if (!proceed) return;
-        this.vinculos.push({
-          username: this.selectedUser.username,
-          asset_tag: tag,
-          flag: "DUPLICATE"
-        });
-      } else {
-        this.vinculos.push({
-          username: this.selectedUser.username,
-          asset_tag: tag
-        });
       }
+
+      this.vinculos.push({
+        username: this.selectedUser.username,
+        asset_tag: tag
+      });
 
       this.search = '';
       this.selectedUser = null;
@@ -71,29 +85,25 @@ createApp({
     },
 
     async enviarVinculos() {
-      if (this.vinculos.length === 0) {
-        alert("Nenhum vínculo para enviar.");
-        return;
-      }
+      if (this.vinculos.length === 0) { alert("Nenhum vínculo para enviar."); return; }
       try {
-        await axios.post("/assign/vincular-ativos", this.vinculos, {
+        const payload = this.vinculos.map(v => ({ username: v.username, asset_tag: v.asset_tag }));
+        await axios.post("/assign/vincular-ativos", payload, {
           headers: { "Content-Type": "application/json" }
         });
         alert("Vínculos enviados com sucesso!");
         this.vinculos = [];
-      } catch (error) {
-        console.error("Erro ao enviar vínculos:", error);
+      } catch (e) {
+        console.error("Send vinculos error:", e);
         alert("Erro ao enviar vínculos.");
       }
     },
 
     async baixarCSV() {
-      if (this.vinculos.length === 0) {
-        alert("Nenhum vínculo para exportar.");
-        return;
-      }
+      if (this.vinculos.length === 0) { alert("Nenhum vínculo para exportar."); return; }
       try {
-        await axios.post("/assign/vincular-ativos", this.vinculos, {
+        const payload = this.vinculos.map(v => ({ username: v.username, asset_tag: v.asset_tag }));
+        await axios.post("/assign/vincular-ativos", payload, {
           headers: { "Content-Type": "application/json" }
         });
         this.vinculos = [];
@@ -107,12 +117,12 @@ createApp({
         const blob = new Blob([response.data], { type: "text/csv" });
         const link = document.createElement("a");
         link.href = window.URL.createObjectURL(blob);
-        link.download = "vinculos.csv";
+        link.download = "transferencias.csv";
         document.body.appendChild(link);
         link.click();
         link.remove();
-      } catch (error) {
-        console.error("Erro ao baixar CSV:", error);
+      } catch (e) {
+        console.error("Download CSV error:", e);
         alert("Erro ao baixar CSV.");
       }
     },

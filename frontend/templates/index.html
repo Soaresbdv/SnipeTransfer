@@ -9,43 +9,50 @@
 </head>
 <body>
   <div id="app">
-    <h1>Vincular Ativos</h1>
+    <!-- TELA: FORM -->
+    <section v-if="mode === 'form'">
+      <h1>Vincular Ativos</h1>
 
-    <div>
-      <label>Usuário:</label>
-      <input
-        type="text"
-        v-model="search"
-        @input="fetchUsers"
-        @blur="applySuggestion"
-        @focus="showSuggestions = true"
-        placeholder="Digite o nome de logon"
-      />
-      <ul v-if="showSuggestions && suggestions.length" class="autocomplete-list">
-        <li v-for="user in suggestions" @mousedown="selectUser(user)">
-          {{ user.username }} — {{ user.name }}
+      <div>
+        <label>Usuário:</label>
+        <input
+          type="text"
+          v-model="search"
+          @input="fetchUsers"
+          @blur="applySuggestion"
+          @focus="showSuggestions = true"
+          placeholder="Digite o nome de logon"
+        />
+        <ul v-if="showSuggestions && suggestions.length" class="autocomplete-list">
+          <li v-for="user in suggestions" @mousedown="selectUser(user)">
+            {{ user.username }} — {{ user.name }}
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <label>Número do Ativo:</label>
+        <input type="number" v-model="assetNumber" />
+      </div>
+
+      <button @click="addVinculo">Adicionar</button>
+      <button @click="goToList" style="margin-left:8px">Ver Lista</button>
+    </section>
+
+    <!-- TELA: LISTA -->
+    <section v-else>
+      <h2>Lista de Vínculos</h2>
+      <ul>
+        <li v-for="(v, index) in vinculos" :key="index">
+          {{ v.username }} — {{ v.asset_tag }}
+          <span v-if="v.flag"> ({{ v.flag }})</span>
         </li>
       </ul>
-    </div>
 
-    <div>
-      <label>Número do Ativo:</label>
-      <input type="number" v-model="assetNumber" />
-    </div>
-
-    <button @click="addVinculo">Adicionar</button>
-
-    <hr>
-
-    <h2>Lista de Vínculos</h2>
-    <ul>
-      <li v-for="(v, index) in vinculos" :key="index">
-        {{ v.username }} — {{ v.asset_tag }}
-      </li>
-    </ul>
-
-    <button @click="enviarVinculos">Vincular</button>
-    <button @click="baixarCSV">Baixar CSV</button>
+      <button @click="enviarVinculos">Vincular</button>
+      <button @click="baixarCSV" style="margin-left:8px">Baixar CSV</button>
+      <button @click="goToForm" style="margin-left:8px">Voltar</button>
+    </section>
   </div>
 
   <script src="/scripts/app.js"></script>
