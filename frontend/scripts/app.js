@@ -17,7 +17,6 @@ createApp({
         this.suggestions = [];
         return;
       }
-
       try {
         const response = await axios.get(`/ldap/search?term=${this.search}`);
         this.suggestions = response.data;
@@ -46,12 +45,25 @@ createApp({
         alert("Selecione um usuário válido e insira o número do ativo.");
         return;
       }
-    
-      this.vinculos.push({
-        username: this.selectedUser.username,
-        asset_tag: String(this.assetNumber)
-      });
-    
+
+      const tag = String(this.assetNumber).trim(); // mantém como string (evita 422)
+      const exists = this.vinculos.some(v => v.asset_tag === tag);
+
+      if (exists) {
+        const proceed = confirm(`O ativo ${tag} já está na lista. Deseja inserir mesmo assim com flag?`);
+        if (!proceed) return;
+        this.vinculos.push({
+          username: this.selectedUser.username,
+          asset_tag: tag,
+          flag: "DUPLICATE"
+        });
+      } else {
+        this.vinculos.push({
+          username: this.selectedUser.username,
+          asset_tag: tag
+        });
+      }
+
       this.search = '';
       this.selectedUser = null;
       this.assetNumber = '';
@@ -63,7 +75,6 @@ createApp({
         alert("Nenhum vínculo para enviar.");
         return;
       }
-    
       try {
         await axios.post("/assign/vincular-ativos", this.vinculos, {
           headers: { "Content-Type": "application/json" }
@@ -81,7 +92,6 @@ createApp({
         alert("Nenhum vínculo para exportar.");
         return;
       }
-
       try {
         await axios.post("/assign/vincular-ativos", this.vinculos, {
           headers: { "Content-Type": "application/json" }
