@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Vincular Ativos</title>
-  <link rel="stylesheet" href="./styles/main.css">
-  <link rel="stylesheet" href="/static/styles/main.css">
+  <link rel="stylesheet" href="/styles/style.css">
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
@@ -14,10 +13,19 @@
 
     <div>
       <label>Usuário:</label>
-      <input type="text" v-model="search" @input="fetchUsers" list="users" />
-      <datalist id="users">
-        <option v-for="u in suggestions" :value="u" />
-      </datalist>
+      <input
+        type="text"
+        v-model="search"
+        @input="fetchUsers"
+        @blur="applySuggestion"
+        @focus="showSuggestions = true"
+        placeholder="Digite o nome de logon"
+      />
+      <ul v-if="showSuggestions && suggestions.length" class="autocomplete-list">
+        <li v-for="user in suggestions" @mousedown="selectUser(user)">
+          {{ user.username }} — {{ user.name }}
+        </li>
+      </ul>
     </div>
 
     <div>
@@ -40,6 +48,6 @@
     <button @click="baixarCSV">Baixar CSV</button>
   </div>
 
-  <script src="./scripts/app.js"></script>
+  <script src="/scripts/app.js"></script>
 </body>
 </html>

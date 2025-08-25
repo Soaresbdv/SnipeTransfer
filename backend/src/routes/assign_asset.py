@@ -1,9 +1,7 @@
-# src/routes/assign_asset.py
-
 import os
 import csv
 from typing import List
-from fastapi import HTTPException
+from fastapi import HTTPException, Body
 from fastapi.responses import FileResponse
 from pydantic import BaseModel
 
@@ -14,7 +12,7 @@ class AssetInput(BaseModel):
     username: str
     asset_tag: str
 
-def vincular_ativos_handler(vinculos: List[AssetInput]):
+def vincular_ativos_handler(vinculos: List[AssetInput] = Body(...)):
     if not vinculos:
         raise HTTPException(status_code=400, detail="Lista de vínculos vazia.")
 
@@ -29,5 +27,16 @@ def vincular_ativos_handler(vinculos: List[AssetInput]):
 def exportar_ativos_handler():
     if not os.path.exists(CSV_PATH):
         raise HTTPException(status_code=404, detail="Nenhum vínculo encontrado.")
-    
-    return FileResponse(CSV_PATH, media_type="text/csv", filename="transferencias.csv")
+
+    headers = {
+        "Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
+        "Pragma": "no-cache",
+        "Expires": "0",
+    }
+
+    return FileResponse(
+        CSV_PATH,
+        media_type="text/csv",
+        filename="transferencias.csv",
+        headers=headers,
+    )

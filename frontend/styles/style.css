@@ -1,21 +1,21 @@
-body {
-  font-family: sans-serif;
-  max-width: 600px;
-  margin: 2rem auto;
-  padding: 1rem;
-  background: #f7f7f7;
-  border: 1px solid #ddd;
-  border-radius: 8px;
+.autocomplete-list {
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  max-height: 150px;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  width: 300px;
+  z-index: 10;
 }
 
-input {
-  display: block;
-  margin-bottom: 1rem;
-  padding: 0.5rem;
-  width: 100%;
+.autocomplete-list li {
+  padding: 8px;
+  cursor: pointer;
 }
 
-button {
-  margin-right: 0.5rem;
-  padding: 0.5rem 1rem;
+.autocomplete-list li:hover {
+  background-color: #f0f0f0;
 }
