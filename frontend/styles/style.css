@@ -1,140 +1,90 @@
-* { box-sizing: border-box; margin: 0; padding: 0; }
-
-html, body {
-  height: 100%;
-  background: #111;
-  font-family: "Segoe UI", sans-serif;
-  color: #fff;
-}
-
-#app {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1rem;
-}
-
-.container {
-  --card-p: 2rem;             
-  width: 100%;
-  max-width: 620px;
-  height: 600px;
-  background: #fff;
-  color: #333;
-  border-radius: 12px;
-  padding: var(--card-p);
-  box-shadow: 0 0 40px rgba(0,0,0,.3);
-  display: flex;
-  flex-direction: column;
-}
-
-.container {
-  --card-p: 2rem;             
-  width: 100%;
-  max-width: 620px;
-  height: 600px;
-  background: #fff;
-  color: #333;
-  border-radius: 12px;
-  padding: var(--card-p);
-  box-shadow: 0 0 40px rgba(0,0,0,.3);
-  display: flex;
-  flex-direction: column;
-}
-
-.container > section {
-  flex: 1;                   
-  display: flex;
-  flex-direction: column;     
-  min-height: 0;              
-}
-
-h1, h2 {
-  text-align: center;
-  margin-bottom: 2rem;
-  color: #222;
-}
-
-.inputs-container {
-  flex: 1;                    
-  display: flex;
-  flex-direction: column;
-  justify-content: center;    
-  gap: 5rem;
-}
-
-.form { position: relative; }
-.input {
-  width: 100%;
-  padding: 12px 10px;
-  font-size: 1rem;
-  border: none;
-  border-bottom: 2px solid #ccc;
-  background: transparent;
-  color: #222;
-}
-.input:focus { outline: none; border-bottom-color: #5891ff; }
-.input-border {
-  display: none;             
-}
-
-.autocomplete-list {
-  list-style: none;
-  margin-top: 4px;
+* {
+  box-sizing: border-box;
+  margin: 0;
   padding: 0;
-  position: absolute;
-  left: 0; right: 0;
-  max-height: 160px;
-  overflow-y: auto;
-  background: #fff;
-  border: 1px solid #ddd;
-  border-radius: 6px;
-  z-index: 10;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.autocomplete-list li { padding: 8px 10px; cursor: pointer; }
-.autocomplete-list li:hover { background: #f2f2f2; }
 
-.actions {
-  margin-top: auto;           
+body, html {
+  height: 100%;
+  background: #f4f5f7;
   display: flex;
-  gap: 1rem;
+  justify-content: center;
+  align-items: center;
 }
-.btn {
-  flex: 1;
-  padding: .75rem 1rem;
-  border: none;
-  border-radius: 8px;
-  cursor: pointer;
-  font-weight: 600;
-  background: #eee;
-  color: #333;
-  transition: .2s;
-}
-.btn:hover { background: #dcdcdc; }
-.btn.primary { background: #5891ff; color: #fff; }
-.btn.primary:hover { background: #4173cc; }
-.btn.ghost { background: transparent; border: 1px solid #ccc; }
 
-.list { list-style: none; padding-left: 0; margin-bottom: 2rem; }
-.list li { padding: .5rem 0; border-bottom: 1px solid #e6e6e6; }
+.container {
+  width: 100%;
+  max-width: 550px;   
+  min-height: 450px; 
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 6px 28px rgba(0,0,0,0.12);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
 
 .card-top {
-  background: #091f4b;             
-  color: #222;
+  background: #1e1e1e;
+  color: #fff;
   text-align: center;
-  padding: 1rem 1.25rem;
-  margin: calc(-1 * var(--card-p)) calc(-1 * var(--card-p)) 1.5rem;
-  border-radius: 12px 12px 0 0;
-  border-bottom: 1px solid #e6e6e6;
+  padding: 1.2rem;
 }
 
 .card-top h1,
 .card-top h2 {
-  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
 }
 
-@media (max-width: 480px) {
-  .container { --card-p: 1.5rem; height: 560px; padding: var(--card-p); }
-  .actions { flex-direction: column; }
+.inputs-container {
+  display: flex;
+  flex-direction: column;
+  padding: 2.5rem;
+  gap: 1.5rem;
+}
+
+.form .input {
+  width: 100%;
+  padding: 1rem 1.2rem;  
+  font-size: 1.05rem;
+}
+
+.form .input:focus {
+  outline: none;
+  border-color: #5891ff;
+  background: #fff;
+  box-shadow: 0 0 0 2px rgba(88,145,255,0.15);
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  padding: 2rem 2.5rem 2.5rem;
+}
+
+.btn {
+  flex: 1;
+  padding: 1rem;
+  font-size: 1.05rem;
+}
+
+.btn.primary {
+  background: #1e1e1e;
+  color: #fff;
+}
+
+.btn.primary:hover {
+  background: #333;
+}
+
+.btn {
+  background: #f0f0f0;
+  color: #333;
+}
+
+.btn:hover {
+  background: #e0e0e0;
 }
