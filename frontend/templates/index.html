@@ -1,60 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Vincular Ativos</title>
-  <link rel="stylesheet" href="/styles/style.css">
+
+  <link rel="stylesheet" href="/styles/style.css?v=4" />
+
   <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 <body>
   <div id="app">
-    <!-- TELA: FORM -->
-    <section v-if="mode === 'form'">
-      <h1>Vincular Ativos</h1>
+    <div class="container">
+      <section v-if="mode === 'form'">
+        <div class="card-top">
+          <h1>Vincular Ativos</h1>
+        </div>
 
-      <div>
-        <label>Usuário:</label>
-        <input
-          type="text"
-          v-model="search"
-          @input="fetchUsers"
-          @blur="applySuggestion"
-          @focus="showSuggestions = true"
-          placeholder="Digite o nome de logon"
-        />
-        <ul v-if="showSuggestions && suggestions.length" class="autocomplete-list">
-          <li v-for="user in suggestions" @mousedown="selectUser(user)">
-            {{ user.username }} — {{ user.name }}
+        <div class="inputs-container">
+          <div class="form">
+            <input
+              class="input"
+              type="text"
+              v-model="search"
+              @input="fetchUsers"
+              @blur="applySuggestion"
+              @focus="showSuggestions = true"
+              placeholder="Usuário"
+              required
+            />
+            <span class="input-border"></span>
+
+            <ul
+              v-if="showSuggestions && suggestions.length"
+              class="autocomplete-list"
+            >
+              <li v-for="user in suggestions" @mousedown="selectUser(user)">
+                {{ user.username }} — {{ user.name }}
+              </li>
+            </ul>
+          </div>
+
+          <div class="form">
+            <input
+              class="input"
+              type="number"
+              inputmode="numeric"
+              pattern="\d*"
+              v-model="assetNumber"
+              placeholder="Número do Ativo"
+              required
+            />
+            <span class="input-border"></span>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button class="btn primary" @click="addVinculo">Adicionar</button>
+          <button class="btn" @click="goToList">Ver Lista</button>
+        </div>
+      </section>
+
+      <section v-else>
+        <div class="card-top">
+          <h2>Lista de Vínculos</h2>
+        </div>
+
+        <ul class="list">
+          <li v-for="(v, index) in vinculos" :key="index">
+            {{ v.username }} — {{ v.asset_tag }}
+            <span v-if="v.flag"> ({{ v.flag }})</span>
           </li>
         </ul>
-      </div>
 
-      <div>
-        <label>Número do Ativo:</label>
-        <input type="number" v-model="assetNumber" />
-      </div>
-
-      <button @click="addVinculo">Adicionar</button>
-      <button @click="goToList" style="margin-left:8px">Ver Lista</button>
-    </section>
-
-    <!-- TELA: LISTA -->
-    <section v-else>
-      <h2>Lista de Vínculos</h2>
-      <ul>
-        <li v-for="(v, index) in vinculos" :key="index">
-          {{ v.username }} — {{ v.asset_tag }}
-          <span v-if="v.flag"> ({{ v.flag }})</span>
-        </li>
-      </ul>
-
-      <button @click="enviarVinculos">Vincular</button>
-      <button @click="baixarCSV" style="margin-left:8px">Baixar CSV</button>
-      <button @click="goToForm" style="margin-left:8px">Voltar</button>
-    </section>
+        <div class="actions">
+          <button class="btn primary" @click="enviarVinculos">Vincular</button>
+          <button class="btn" @click="baixarCSV">Baixar CSV</button>
+          <button class="btn ghost" @click="goToForm">Voltar</button>
+        </div>
+      </section>
+    </div>
   </div>
-
-  <script src="/scripts/app.js"></script>
+  <script src="/scripts/app.js?v=4"></script>
 </body>
 </html>
