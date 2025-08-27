@@ -9,7 +9,12 @@ createApp({
       selectedUser: null,
       showSuggestions: false,
       assetNumber: '',
-      vinculos: []
+      editIndex: null,
+      editUsername: '',
+      editAsset: '',
+      vinculos: [],
+      notification: { show: false, message: '', type: 'info' }, 
+      duplicatePrompt: { show: false, tag: '', user: '', owners: [] } 
     };
   },
   mounted() {
@@ -17,27 +22,32 @@ createApp({
     const root = document.documentElement;
     const saved = localStorage.getItem("theme");
 
-    if (saved === "light") {
-      toggle.checked = true;
+    const applyLight = () => {
       root.classList.remove("dark");
       document.body.classList.add("light-theme");
-    } else {
+      document.body.classList.remove("bg-gradient-to-br","from-indigo-600","via-indigo-700","to-violet-700");
+      document.body.classList.add("bg-[#f8f4f0]");
+    };
+    const applyDark = () => {
       root.classList.add("dark");
-    }
+      document.body.classList.remove("light-theme","bg-[#f8f4f0]");
+      document.body.classList.add("bg-gradient-to-br","from-indigo-600","via-indigo-700","to-violet-700");
+    };
+
+    if (saved === "light") { toggle.checked = true; applyLight(); }
+    else { applyDark(); }
 
     toggle.addEventListener("change", () => {
-      if (toggle.checked) {
-        root.classList.remove("dark");
-        document.body.classList.add("light-theme");
-        localStorage.setItem("theme", "light");
-      } else {
-        root.classList.add("dark");
-        document.body.classList.remove("light-theme");
-        localStorage.setItem("theme", "dark");
-      }
+      if (toggle.checked) { applyLight(); localStorage.setItem("theme","light"); }
+      else { applyDark(); localStorage.setItem("theme","dark"); }
     });
   },
   methods: {
+    showNotification(msg, type="info") {
+      this.notification = { show: true, message: msg, type };
+      setTimeout(() => { this.notification.show = false; }, 3000);
+    },
+
     goToList() { this.mode = 'list'; },
     goToForm() { this.mode = 'form'; },
 
@@ -78,64 +88,108 @@ createApp({
 
     addVinculo() {
       if (!this.selectedUser || !this.assetNumber) {
-        alert("Selecione um usuário válido e insira o número do ativo.");
+        this.showNotification("Selecione um usuário válido e insira o número do ativo.", "error");
         return;
       }
 
       const tag = this.formatAssetTag(this.assetNumber);
-      if (!tag) { alert("Número do ativo inválido. Use 1 a 4 dígitos."); return; }
+      if (!tag) { 
+        this.showNotification("Número do ativo inválido. Use 1 a 4 dígitos.", "error");
+        return;
+      }
 
       const owners = this.ownersForTag(tag, this.selectedUser.username);
       if (owners.length > 0) {
-        const proceed = confirm(
-          `O ativo ${tag} já está na lista com: ${owners.join(", ")}.\nDeseja inserir mesmo assim?`
-        );
-        if (!proceed) return;
+        this.confirmDuplicate(tag, owners);
+        return;
       }
 
-      this.vinculos.push({ username: this.selectedUser.username, asset_tag: tag });
+      this.vinculos.push({ username: this.selectedUser.username, asset_tag: tag, duplicate: false });
       this.search = '';
       this.selectedUser = null;
       this.assetNumber = '';
       this.suggestions = [];
     },
 
+    confirmDuplicate(tag, owners) {
+      this.duplicatePrompt = { show: true, tag, user: this.selectedUser.username, owners };
+    },
+    acceptDuplicate() {
+      this.vinculos.push({ username: this.selectedUser.username, asset_tag: this.duplicatePrompt.tag, duplicate: true });
+      this.duplicatePrompt = { show: false, tag: '', user: '', owners: [] };
+      this.search = '';
+      this.selectedUser = null;
+      this.assetNumber = '';
+      this.suggestions = [];
+      this.showNotification("Duplicado cadastrado!", "warn");
+    },
+    cancelDuplicate() {
+      this.duplicatePrompt = { show: false, tag: '', user: '', owners: [] };
+      this.showNotification("Cadastro cancelado.", "info");
+    },
+
+    editVinculo(index) {
+      this.editIndex = index;
+      this.editUsername = this.vinculos[index].username;
+      this.editAsset = this.vinculos[index].asset_tag;
+    },
+    salvarEdicao() {
+      if (this.editIndex !== null) {
+        this.vinculos[this.editIndex].username = this.editUsername;
+        this.vinculos[this.editIndex].asset_tag = this.editAsset;
+        this.editIndex = null;
+        this.editUsername = '';
+        this.editAsset = '';
+        this.showNotification("Vínculo atualizado!", "success");
+      }
+    },
+    cancelarEdicao() {
+      this.editIndex = null;
+      this.editUsername = '';
+      this.editAsset = '';
+    },
+
     async enviarVinculos() {
-      if (this.vinculos.length === 0) { alert("Nenhum vínculo para enviar."); return; }
+      if (this.vinculos.length === 0) { 
+        this.showNotification("Nenhum vínculo para enviar.", "error"); 
+        return; 
+      }
       try {
         const payload = this.vinculos.map(v => ({ username: v.username, asset_tag: v.asset_tag }));
         await axios.post("/assign/vincular-ativos", payload, { headers: { "Content-Type": "application/json" } });
-        alert("Vínculos enviados com sucesso!");
+        this.showNotification("Vínculos enviados com sucesso!", "success");
         this.vinculos = [];
       } catch (e) {
         console.error("Send vinculos error:", e);
-        alert("Erro ao enviar vínculos.");
+        this.showNotification("Erro ao enviar vínculos.", "error");
       }
     },
 
     async baixarCSV() {
-      if (this.vinculos.length === 0) { alert("Nenhum vínculo para exportar."); return; }
+      if (this.vinculos.length === 0) { 
+        this.showNotification("Nenhum vínculo para exportar.", "error"); 
+        return; 
+      }
       try {
-        const payload = this.vinculos.map(v => ({ username: v.username, asset_tag: v.asset_tag }));
-        await axios.post("/assign/vincular-ativos", payload, { headers: { "Content-Type": "application/json" } });
-        this.vinculos = [];
-
-        const url = `/assign/exportar-ativos?t=${Date.now()}`;
-        const response = await axios.get(url, {
-          responseType: "blob",
-          headers: { "Cache-Control": "no-cache" }
-        });
-
-        const blob = new Blob([response.data], { type: "text/csv" });
+        const header = "username,asset_tag,duplicado\n";
+        const rows = this.vinculos.map(v => {
+          return `${v.username},${v.asset_tag},${v.duplicate ? "#duplicated" : ""}`;
+        }).join("\n");
+      
+        const csv = header + rows;
+      
+        const blob = new Blob([csv], { type: "text/csv" });
         const link = document.createElement("a");
         link.href = window.URL.createObjectURL(blob);
         link.download = "transferencias.csv";
         document.body.appendChild(link);
         link.click();
         link.remove();
+      
+        this.showNotification("CSV baixado com sucesso!", "success");
       } catch (e) {
         console.error("Download CSV error:", e);
-        alert("Erro ao baixar CSV.");
+        this.showNotification("Erro ao baixar CSV.", "error");
       }
     }
   }
